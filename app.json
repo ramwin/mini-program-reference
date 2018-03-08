@@ -1,12 +1,31 @@
 {
+  "help": {
+    "name": "我自己写得帮助文件",
+    "pages": "所有页面的路径",
+    "window": "样式的配置",
+    "tabBar": "下面的菜单栏，至少要有两个"
+  },
   "pages":[
+    "pages/text/text",
     "pages/index/index",
     "pages/logs/logs"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "微信接口功能演示",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {"pagePath": "pages/index/index",
+      "text": "首页"},
+      {"pagePath": "pages/logs/logs",
+      "text": "日志"},
+      {"pagePath": "pages/text/text",
+      "text": "我的文字"}
+    ]
+  },
+  "debug": true
 }

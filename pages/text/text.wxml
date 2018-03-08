@@ -1,0 +1,21 @@
+<text>我的text</text>
+<text>我的标题: {{title}}</text>
+<button  bindtap="viewTap">你敢点我吗</button>
+<text>循环渲染</text>
+<view wx:for="{{texts.results}}" wx:key="id">{{item.text}}</view>
+<text>条件渲染</text>
+
+<text>模板渲染</text>
+
+<template name="textItem">
+  <view>
+    <text> id:  {{id}} </text>
+    <text> text: {{text}} </text>
+  </view>
+</template>
+<view wx:for="{{texts.results}}" wx:key="id">
+  <template is="textItem" data="{{...item}}"/>
+</view>
+
+<wxs src="text.wxs" module="text" />
+<view>{{text.foo}}</view>
