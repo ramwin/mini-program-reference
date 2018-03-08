@@ -77,6 +77,7 @@ behaviors实现了类似mixin的效果，这个我喜欢
 
 * 路由
   * `wx.reLaunch({'url': '/pages/text/text'})`
+  * 注意各个跳转之间是严格限定的，switchtab只能切换tab和navigateto只能切换url
 * [模块化](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/app-service/module.html)
   * 文件作用域:
     * 全局变量: 放在App里面

@@ -12,7 +12,7 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     console.log("别拦着我，我要跳到日志去了")
-    wx.navigateTo({
+    wx.switchTab({
       url: '../logs/logs'
     })
   },
