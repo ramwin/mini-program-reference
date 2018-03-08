@@ -9,5 +9,6 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
+    <text>源码下载: https://github.com/ramwin/mini-program-tutorial/</text>
   </view>
 </view>

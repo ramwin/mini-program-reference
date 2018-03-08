@@ -1,0 +1,7 @@
+<!--pages/text/text-component.wxml-->
+<view class="text-component">
+<slot name="before"></slot>
+<text class="text">我是text的一个组件</text>
+<button bindtap="onTap">点我能删除</button>
+<slot name="after"></slot>
+</view>

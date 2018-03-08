@@ -2,26 +2,25 @@
 # 学习小程序
 吐槽：微信小程序文档真是写得烂，文档，账号管理乱七八糟
 用json当配置文件真是败笔，注释都加不上去，逗号都不能多写一个
+组件都已经用名字进行封装好了，为何css的作用域竟然还是全局的
+behaviors实现了类似mixin的效果，这个我喜欢
 
 # 框架
 ## [配置](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/config.html)
 * app.json
   ```
   {
-    "pages": [  # 页面所有路径
+    "pages": [
       "pages/index/index",
       "pages/logs/index"
     ],
-    "window": {  # 小程序的状态栏、导航条、标题、窗口背景色
+    "window": {
       "navigationBarTitleText": "Demo"
     },
     "tabBar": {
       "list": [{
         "pagePath": "pages/index/index",
         "text": "首页"
-      }, {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
       }]
     },
     "networkTimeout": {
@@ -30,7 +29,7 @@
     },
     "debug": true
   }
-  ```
+  ```  
 
 ## 逻辑层...
 * 注册程序
@@ -128,10 +127,22 @@
   * WXS
   * WXSS
   * 组件
+    * 使用自定义组件: `{"usingComponents": {"text-component": "./text"}}`
+    * [组件事件](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/custom-component/events.html)
+    * [behaviors](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/custom-component/behaviors.html) 有点类似mixin
+      
 ## 自定义组件...
 ## 性能...
 
-# 组件...
+# 组件
+## 视图容器
+## 基础内容
+## 表单组件
+## 导航
+## 媒体组件
+## 地图
+## 画布
+## 开放能力
 
 # API...
 

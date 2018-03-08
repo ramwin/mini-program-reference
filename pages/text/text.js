@@ -25,9 +25,10 @@ Page({
       "path": "/text/text"
     }
   },
-  viewTap: function () {
+  viewTap: function (option) {
     console.log('你还真的敢啊');
     console.log(this.route);
+    console.log(option)
     this.setData({"title": "我被点了555"})
   }
 })

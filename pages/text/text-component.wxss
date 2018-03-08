@@ -1,0 +1,4 @@
+/* pages/text/text-component.wxss */
+.text-component text {
+  color: yellow
+}

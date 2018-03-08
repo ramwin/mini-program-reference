@@ -1,0 +1,6 @@
+.title {
+  font-size: 80rpx;
+}
+.red-text {
+  color: red
+}
