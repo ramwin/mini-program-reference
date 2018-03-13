@@ -6,6 +6,7 @@
     "tabBar": "下面的菜单栏，至少要有两个"
   },
   "pages":[
+    "pages/bar/index",
     "pages/index/index",
     "pages/text/text",
     "pages/logs/logs"
