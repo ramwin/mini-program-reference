@@ -7,6 +7,7 @@
   },
   "pages":[
     "pages/bar/index",
+    "pages/time/index",
     "pages/index/index",
     "pages/text/text",
     "pages/logs/logs"
@@ -30,3 +31,4 @@
   },
   "debug": true
 }
+
