@@ -5,14 +5,15 @@
     "window": "样式的配置",
     "tabBar": "下面的菜单栏，至少要有两个"
   },
-  "pages":[
+  "pages": [
     "pages/bar/index",
     "pages/time/index",
     "pages/index/index",
     "pages/text/text",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/test-view"
   ],
-  "window":{
+  "window": {
     "navigationBarBackgroundColor": "#ff0000",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "微信接口功能演示",
@@ -21,14 +22,19 @@
   },
   "tabBar": {
     "list": [
-      {"pagePath": "pages/index/index",
-      "text": "首页"},
-      {"pagePath": "pages/logs/logs",
-      "text": "日志"},
-      {"pagePath": "pages/text/text",
-      "text": "我的文字"}
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/text/text",
+        "text": "我的文字"
+      }
     ]
   },
   "debug": true
 }
-
