@@ -11,7 +11,9 @@
     "pages/index/index",
     "pages/text/text",
     "pages/logs/logs",
-    "pages/test-view"
+    "pages/test-view",
+    "pages/test-image",
+    "pages/test-input"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

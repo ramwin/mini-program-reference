@@ -1,0 +1,4 @@
+<!--pages/test-input.wxml-->
+<text>pages/test-input.wxml</text>
+<input placeholder='bindKeyInput' bindinput="bindinput"/>
+<text>bindinput: {{bindinput}}</text>
