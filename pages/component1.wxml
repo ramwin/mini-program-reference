@@ -2,4 +2,5 @@
 <view>我是一个component组件,代表了一个人</view>
 <view>innerText: {{innerText}}</view>
 <view>age: {{innerdata.age}}</view>
+<view>datainnerdata.age: {{datainnerdata.age}}</view>
 <button bind:tap="sing">唱歌，唱一次涨一岁哦</button>

@@ -7,7 +7,8 @@ Page({
   data: {
     componentdata: {
       name: 'ramwin',
-      age: 18
+      age: 18,
+
     }
   },
 
@@ -70,11 +71,11 @@ Page({
     console.log("唱歌了");
     console.log(e.detail);
     console.assert(e.detail.mydetail == 'mydetail');
-    this.setData({  // 如果外部数据修改，这会触发数据的变化
+    /* this.setData({  // 如果外部数据修改，这会触发数据的变化
       "componentdata": {
         name: 'ramwin',
         age: 25
       }
-    })
+    }) */
   }
 })
