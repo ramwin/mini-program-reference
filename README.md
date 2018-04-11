@@ -145,7 +145,23 @@ behaviors实现了类似mixin的效果，这个我喜欢
     * [组件事件](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/custom-component/events.html)
     * [behaviors](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/custom-component/behaviors.html) 有点类似mixin
       
-## 自定义组件...
+## [自定义组件](./component组件.md)
+* [ ] slot
+* [ ] 构造器
+* [ ] 事件
+    * 组件.js
+    ```
+    var myEventDetail = {'mydetail': 'mydetail'}
+    var myEventOption = {'myoption': 'myoption'}
+    this.triggerEvent('sing', myEventDetail, myEventOption);
+    ```
+    * 触发的选项
+        * bubbles: 是否冒泡(false)
+        * [ ] composed: 是否穿越组件(false)
+        * [ ] capturePhase: 是否拥有捕获阶段(false)
+* [ ] behaviros
+* [ ] 组件之间的关系
+* [ ] 抽象节点
 ## 性能...
 
 # 组件

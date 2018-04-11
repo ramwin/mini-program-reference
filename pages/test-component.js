@@ -5,7 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    componentdata: {
+      name: 'ramwin',
+      age: 18
+    }
   },
 
   /**
@@ -62,5 +65,16 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  sing: function(e) {
+    console.log("唱歌了");
+    console.log(e.detail);
+    console.assert(e.detail.mydetail == 'mydetail');
+    this.setData({  // 如果外部数据修改，这会触发数据的变化
+      "componentdata": {
+        name: 'ramwin',
+        age: 25
+      }
+    })
   }
 })

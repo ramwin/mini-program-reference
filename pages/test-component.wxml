@@ -1,5 +1,10 @@
 <!--pages/test-component.wxml-->
 <text>测试我的自定义组件</text>
+<view>我是外面的数据</view>
+<view>age: {{componentdata.age}}</view>
 <view>下面是组件</view>
-<component></component>
+<component inner-text='我来改变你'
+  innerdata="{{componentdata}}"
+  bind:sing="sing">
+</component>
 <view>上面是组件</view>
