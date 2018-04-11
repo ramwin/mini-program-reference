@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 4,
+			"current": 5,
 			"list": [
 				{
 					"id": -1,
@@ -46,8 +46,8 @@
 					"query": ""
 				},
 				{
-					"id": -1,
-					"name": "测试组件",
+					"id": 2,
+					"name": "测试内置组件",
 					"pathName": "pages/test-view",
 					"query": ""
 				},
@@ -58,9 +58,16 @@
 					"query": ""
 				},
 				{
+					"id": 4,
+					"name": "测试loading",
+					"pathName": "pages/test-loading",
+					"query": ""
+				},
+				{
 					"id": -1,
-					"name": "测试输入框",
-					"pathName": "pages/test-input"
+					"name": "测试自定义组件",
+					"pathName": "pages/test-component",
+					"query": ""
 				}
 			]
 		}

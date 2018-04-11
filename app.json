@@ -13,7 +13,9 @@
     "pages/logs/logs",
     "pages/test-view",
     "pages/test-image",
-    "pages/test-input"
+    "pages/test-input",
+    "pages/test-loading",
+    "pages/test-component"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

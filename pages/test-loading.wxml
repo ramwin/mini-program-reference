@@ -1,0 +1,5 @@
+<!--pages/test-loading.wxml-->
+<text>pages/test-loading.wxml</text>
+<button bind:tap="showloading">点我弹出loading</button>
+<button bind:tap="showmodal">点我弹出modal</button>
+<button bind:tap="showaction">点我弹出操作框</button>
