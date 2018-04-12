@@ -1,0 +1,6 @@
+<!--pages/test-template.wxml-->
+<text>pages/test-template.wxml</text>
+
+<import src="template1.wxml"/>
+<template is="template1" data="{{text: 'foobar'}}"/>
+<view>import只能引用template，但是css需要单独import</view>

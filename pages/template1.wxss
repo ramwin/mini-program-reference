@@ -1,0 +1,5 @@
+/* pages/template1.wxss */
+
+text {
+  color: red;
+}

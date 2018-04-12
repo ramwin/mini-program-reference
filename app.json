@@ -15,7 +15,9 @@
     "pages/test-image",
     "pages/test-input",
     "pages/test-loading",
-    "pages/test-component"
+    "pages/test-component",
+    "pages/test-template",
+    "pages/template1"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

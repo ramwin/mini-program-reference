@@ -1,0 +1,8 @@
+<!--pages/template1.wxml-->
+<template name="template1">
+  <text class="text">我是红色的模板1{{text}}</text>
+</template>
+
+<view class="template1">
+  <template is="template1" data="{{text: 'foobar'}}"/>
+</view>

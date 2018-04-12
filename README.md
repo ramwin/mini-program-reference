@@ -147,7 +147,11 @@ behaviors实现了类似mixin的效果，这个我喜欢
       
 ## [自定义组件](./component组件.md)
 * [ ] slot
-* [ ] 构造器
+* [ ] [构造器](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/component.html)
+    * 事件
+        * created: 创建好了，这时候不能使用setData
+        * attached: 加载好了，这时候可以用直接输入的那些数据，innertype="create", 这个变量可以用了
+        * ready: 组件布局完成，这时候可以用onload里面生成然后传入组建的数据, innerid="{{resource.id}}", 这个变量可以用了
 * [ ] 事件
     * 组件.js
     ```
