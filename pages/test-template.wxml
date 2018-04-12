@@ -2,5 +2,8 @@
 <text>pages/test-template.wxml</text>
 
 <import src="template1.wxml"/>
-<template is="template1" data="{{text: 'foobar'}}"/>
+<template is="template1" data="{{text: templatedata}}"/><!--后面的数据不加引号就是直接传入data的数据，加了引号就是现场定义的数据-->
+<template is="template1" data="{{text: templatedata.text}}"/>
+<template is="template1" data="{{templatedata}}"/> <!--无法直接传递一个对象-->
+
 <view>import只能引用template，但是css需要单独import</view>

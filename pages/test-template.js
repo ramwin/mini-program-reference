@@ -5,7 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    "templatedata": {
+      text: '引用出的text',
+    },
+    text: '单独的text',
   },
 
   /**

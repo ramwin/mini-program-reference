@@ -8,3 +8,5 @@
   bind:sing="sing">
 </component>
 <view>上面是组件</view>
+
+<button bind:tap="changeage">重置数据</button>

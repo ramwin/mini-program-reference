@@ -135,7 +135,7 @@ behaviors实现了类似mixin的效果，这个我喜欢
     * [引用](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/view/wxml/import.html)
       ```
       <import src="item.wxml"/>  # 无法import item中 import的template
-      <template is="item 里面的item"></template>
+      <template is="item 里面的item" data=""></template>  # 这个data="{{text: text}}"  后面的text不加引号就是用this.data，加了引号就是直接的数据
       <include src="header.wxml"/>  # 相当于把页面的代码复制过来了
       ```
   * WXS

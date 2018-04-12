@@ -77,5 +77,15 @@ Page({
         age: 25
       }
     }) */
+  },
+  changeage: function(e) {
+    console.log("变回18")
+    this.setData({
+      "age": 18,
+      componentdata: {
+        name: 'ramwin',
+        age: 18,
+      }
+    })
   }
 })

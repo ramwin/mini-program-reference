@@ -1,6 +1,7 @@
 <!--pages/template1.wxml-->
 <template name="template1">
-  <text class="text">我是红色的模板1{{text}}</text>
+  <view class="text">我是红色的模板1</view>
+  <view class="text">text: {{text}}</view>
 </template>
 
 <view class="template1">
