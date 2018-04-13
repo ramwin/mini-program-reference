@@ -8,7 +8,7 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.91",
+	"libVersion": "2.0.0",
 	"appid": "wx49c680453307ac18",
 	"projectname": "mini-program-tutorial",
 	"isGameTourist": false,
@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 5,
+			"current": 9,
 			"list": [
 				{
 					"id": -1,
@@ -81,6 +81,19 @@
 					"name": "查看模板",
 					"pathName": "pages/template1",
 					"query": "",
+					"scene": "1011"
+				},
+				{
+					"id": -1,
+					"name": "测试iconfont",
+					"pathName": "pages/test-iconfont",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "测试样式",
+					"pathName": "pages/test-style",
+					"query": "from=qrcode",
 					"scene": "1011"
 				}
 			]

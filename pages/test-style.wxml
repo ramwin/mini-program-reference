@@ -1,0 +1,35 @@
+<!--pages/test-style.wxml-->
+<view>测试各种样式</view>
+<view>测试文字换行</view>
+<view class="onelineword">
+  <text>第一段文字</text><text>第二段放不下</text>
+</view>
+
+
+<view class="increaseview">端</view>
+<view class="increaseview">测试一个view不会自动变宽</view>
+<view class="minwidth">
+</view>
+<text>实现不出来</text>
+
+<view>换成text，这样能自动变宽，但是要指定max-width和display:block</view>
+<text class="onelinetext">
+  <text>第一段文字</text><text>第二段放不下</text>
+</text>
+<text class="onelinetext">
+  <text>短 长</text><text>文字</text>
+</text>
+
+<view>换成text,会自动变宽但是max-width不起作用
+</view>
+<text style="border: 1px solid red; max-width: 100rpx; word-wrap: break-word;display: inline-block; white-space: nowrap; overflow:hidden;">
+ <text>短文字</text><text>很长很长的文字</text>
+</text>
+<view>stackoverflow找到答案，但是好像不支持很短的字</view>
+<text style="border: 1px solid red; max-width: 100rpx; word-wrap: break-word;display: inline-block; white-space: nowrap; overflow:hidden;">
+ <text>短</text><text>后</text>
+</text>
+<view>stackoverflow找到答案，但是好像不支持很短的字</view>
+<text style="border: 1px solid red; max-width: 100rpx; word-wrap: break-word;display: inline-block; white-space: nowrap; overflow:hidden;">
+ <text></text><text>后</text>
+</text>

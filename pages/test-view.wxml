@@ -18,3 +18,5 @@
 <button bindtap="changeAutoplay"> autoplay </button>
 <slider bindchange="intervalChange" show-value min="500" max="2000"/> interval
 <slider bindchange="durationChange" show-value min="1000" max="10000"/> duration
+
+<button bind:tap="share">点我分享</button>

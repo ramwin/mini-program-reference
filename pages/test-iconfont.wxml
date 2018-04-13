@@ -1,0 +1,8 @@
+<!--pages/test-iconfont.wxml-->
+<text>pages/test-iconfont.wxml</text>
+<view>测试iconfont</view>
+<view>使用font-class</view>
+<view>只要把原来的iconfont.css改成iconfont.wxss就可以了</view>
+<i class="iconfont icon-fenxiang"></i>
+<i class="iconfont icon-fanhui"></i>
+<i class="iconfont icon-guanbi"></i>

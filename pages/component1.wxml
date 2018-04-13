@@ -4,3 +4,8 @@
 <view>age: {{innerdata.age}}</view>
 <view>datainnerdata.age: {{datainnerdata.age}}</view>
 <button bind:tap="sing">唱歌，唱一次涨一岁哦</button>
+
+<view>测试组件内部使用icon</view>
+<i class="iconfont icon-fenxiang"></i>
+<i class="iconfont icon-fanhui"></i>
+<i class="iconfont icon-guanbi"></i>

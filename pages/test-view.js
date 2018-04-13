@@ -29,5 +29,11 @@ Page({
     this.setData({
       duration: e.detail.value
     })
+  },
+  share: function(e) {
+    console.log("分享");
+    wx.showShareMenu({
+      
+    })
   }
 })

@@ -1,3 +1,2 @@
-/* pages/component1.wxss */
-
+/* pages/test-iconfont.wxss */
 @import "../iconfont/iconfont.wxss"

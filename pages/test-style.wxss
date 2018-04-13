@@ -1,0 +1,23 @@
+/* pages/test-style.wxss */
+.onelineword {
+  border: 1rpx solid red;
+  overflow: hidden;
+  width: 100rpx;
+  text-overflow: hidden;
+  word-break: keep-all;
+}
+
+.increaseview {
+  min-width: 1rpx;
+  max-width: 100rpx;
+  border: 1rpx solid green;
+}
+
+.onelinetext {
+  border: 1rpx solid red;
+  overflow: hidden;
+  max-width: 200rpx;
+  text-overflow: hidden;
+  word-break: keep-all;
+  display: block;
+}
