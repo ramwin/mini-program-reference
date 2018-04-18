@@ -185,9 +185,23 @@ behaviors实现了类似mixin的效果，这个我喜欢
 ## 开放能力
 
 # API...
-## 界面
+## [网络](https://developers.weixin.qq.com/miniprogram/dev/api/api-network.html)
+## [界面](https://developers.weixin.qq.com/miniprogram/dev/api/api-react.html)
 * 交互反馈:
   1. wx.showToast
+* 设置导航条
+* 设置tabBar
+* 设置置顶信息
+* [导航](https://developers.weixin.qq.com/miniprogram/dev/api/ui-navigate.html)
+    * wx.navigateTo
+    ```
+    wx.navigateTo({
+        url: "test?id=1",
+        success: function,
+        fail: function,
+        complete: function
+    })
+    ```
 
 # 工具...
 
