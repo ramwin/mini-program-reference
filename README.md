@@ -20,6 +20,7 @@
 ## [配置](配置.md)
 
 ## [逻辑层](逻辑层.md)
+### [路由](逻辑层.md)
 
 ## 视图层
 * WXML
@@ -40,6 +41,17 @@
         ```
 * WXS
 * WXSS
+    * 尺寸单位
+    * 样式导入
+    ```
+    @import "common.wxss"
+    ```
+    * 内联样式
+    ```
+    <view style="color: {{color}};" /> 避免将静态的样式写进style，会影响渲染速度, 动态的样式才写入style
+    <view class="normal_view"/>
+    ```
+    * 选择器
 * 组件
 * 使用自定义组件: `{"usingComponents": {"text-component": "./text"}}`
 * [组件事件](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/custom-component/events.html)
@@ -82,7 +94,7 @@
 * ### button
 * ### picker
 * [ ] 待办
-## 导航
+## [导航](组件.md)
 ## 媒体组件
 ## 地图
 ## 画布
