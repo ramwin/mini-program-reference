@@ -100,8 +100,8 @@
 ## 画布
 ## 开放能力
 
-# API...
-## [网络](https://developers.weixin.qq.com/miniprogram/dev/api/api-network.html)
+# [API](./api.md)
+## 网络
 ## [界面](https://developers.weixin.qq.com/miniprogram/dev/api/api-react.html)
 * 交互反馈:
   1. wx.showToast
@@ -118,6 +118,8 @@
         complete: function
     })
     ```
+
+## 开放接口
 
 # 工具...
 
