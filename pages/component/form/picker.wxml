@@ -1,0 +1,9 @@
+<!--pages/组件/表单组件/picker.wxml-->
+<text>pages/组件/表单组件/picker.wxml</text>
+<view class="h3">picker测试</view>
+<view class="h4">普通选择器</view>
+<picker range="{{normalrange}}" bindchange="bindPickerChange">
+  <view class="picker">
+  当前选择: {{normalrange[normalrange_index]}}
+  </view>
+</picker>

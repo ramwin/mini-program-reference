@@ -1,0 +1,5 @@
+<!--pages/index.wxml-->
+<view>这是ramwin用来测试和学习小程序的项目</view>
+<view class="h1">组件</view>
+<view class="h2">表单组件</view>
+<navigator url="/pages/component/form/picker">picker</navigator>

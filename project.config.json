@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 10,
 			"list": [
 				{
 					"id": -1,
@@ -95,6 +95,12 @@
 					"pathName": "pages/test-style",
 					"query": "from=qrcode",
 					"scene": "1011"
+				},
+				{
+					"id": -1,
+					"name": "picker",
+					"pathName": "pages/component/form/picker",
+					"query": ""
 				}
 			]
 		}

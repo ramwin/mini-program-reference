@@ -6,6 +6,7 @@
     "tabBar": "下面的菜单栏，至少要有两个"
   },
   "pages": [
+    "pages/index",
     "pages/bar/index",
     "pages/time/index",
     "pages/index/index",
@@ -19,7 +20,8 @@
     "pages/test-template",
     "pages/template1",
     "pages/test-iconfont",
-    "pages/test-style"
+    "pages/test-style",
+    "pages/component/form/picker"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",
