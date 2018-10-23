@@ -1,0 +1,4 @@
+<!--pages/frame/view/WXML.wxml-->
+<view class="h4">事件</view>
+<view class="h5">bindtap</view>
+<view id="tapTest" data-hi="WeChat" data-list="{{[1,2,3]}}" data-customer="{{complex_data}}" bindtap="tapName">点击我触发事件</view>
