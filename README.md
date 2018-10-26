@@ -57,4 +57,4 @@
 * request连PATCH的请求都没法发送，还做成开发工具可以用，手机上不可以用  
 * wx:for和data-item="{{item}}"好像无法嵌套到内部
 * behaviors实现了类似mixin的效果，这个我喜欢
-
+* 组件的 addGlobalClass 和 extendClassed 好用
