@@ -4,6 +4,7 @@
   <view class="h2">视图层</view>
     <view class="h3">WXML</view>
       <navigator class="h4 a" url="/pages/frame/view/WXML">事件</navigator>
+    <navigator class="h3" url="/pages/frame/view/WXSS">样式WXSS</navigator>
 <view class="h1">组件</view>
 <view class="h2">表单组件</view>
 <navigator url="/pages/component/form/picker">picker</navigator>

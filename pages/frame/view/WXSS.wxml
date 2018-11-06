@@ -1,0 +1,6 @@
+<!--pages/frame/view/WXSS.wxml-->
+<view class="h4">样式WXSS</view>
+  <view class="h5">不同的变量产生不同的class</view>
+  <view class="h5 {{class1}}">
+  <text>{{class1_name}}</text></view>
+  <view class="{{class2}}">{{class2_name}}</view>

@@ -36,3 +36,11 @@
   text-decoration: none;
   background-color: transparent;
 }
+
+/* 颜色 */
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
