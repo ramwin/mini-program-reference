@@ -1,0 +1,4 @@
+<!--pages/api/media/audio.wxml-->
+<rich-text nodes="{{nodes}}"></rich-text>
+<text selectable="true">
+</text>

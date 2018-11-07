@@ -8,3 +8,6 @@
 <view class="h1">2. 组件</view>
   <view class="h2">2.1. 表单组件</view>
     <navigator url="/pages/component/form/picker">2.1.1 picker</navigator>
+<view class="h1">3. API</view>
+  <view class="h2">2. 媒体</view>
+    <navigator url="/pages/api/media/audio" class="h3">1. 音频</navigator>

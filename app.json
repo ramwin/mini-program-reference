@@ -23,7 +23,8 @@
     "pages/test-style",
     "pages/component/form/picker",
     "pages/frame/view/WXML",
-    "pages/frame/view/WXSS"
+    "pages/frame/view/WXSS",
+    "pages/api/media/audio"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

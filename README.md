@@ -23,7 +23,7 @@
 * ## 开放能力
 
 # [API](./api.md)
-* 网络
+## [网络](./api.md#网络)
 ## [界面](https://developers.weixin.qq.com/miniprogram/dev/api/api-react.html)
 * 交互反馈:
   1. wx.showToast

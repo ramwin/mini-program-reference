@@ -2,6 +2,7 @@
 
 
 [官方文档](https://developers.weixin.qq.com/miniprogram/dev/api/)
+
 ## 网络
 ### 发起请求
 ```
@@ -9,7 +10,15 @@ wx.request({
     url: '',
     method: '', GET|POST|PUT
     data: '',
+    dataType: 'json',
+    responseType: 'json',
     header: '',
+    success: function(res) {
+        if (res.statusCode == 200) {
+            console.info(res.header)
+            console.info(res.data)
+        }
+    }
 })
 ```
 
