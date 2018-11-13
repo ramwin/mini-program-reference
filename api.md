@@ -28,7 +28,7 @@ wx.request({
 ```
     wx.login({
         success: function(res) {
-            res {'code': '用户code', 'errMsg': 'login:ok'
+            res = {'code': '用户code', 'errMsg': 'login:ok'
         }
     })
 ```

@@ -24,7 +24,8 @@
     "pages/component/form/picker",
     "pages/frame/view/WXML",
     "pages/frame/view/WXSS",
-    "pages/api/media/audio"
+    "pages/api/media/audio",
+    "pages/component/form/checkbox"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

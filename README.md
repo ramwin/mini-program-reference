@@ -1,8 +1,8 @@
 ** 学习小程序 **
 * [官网](https://developers.weixin.qq.com/miniprogram/dev/)
 
-# 框架
-* ## [配置](配置.md)
+# [框架](./框架.md)
+* ## 配置
 * ## [逻辑层](逻辑层.md)
     * [路由](逻辑层.md)
 * ## [视图层](./框架.md)
