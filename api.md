@@ -22,6 +22,31 @@ wx.request({
 })
 ```
 
+## 界面
+[官网文档](https://developers.weixin.qq.com/miniprogram/dev/api/api-react.html)
+* 交互反馈:
+  1. wx.showToast
+    ```
+    wx.showToast({
+        "title": "成功",
+        "icon": "success|loading|none",
+    })
+    ```
+* 设置导航条
+* 设置tabBar
+* 设置置顶信息
+* [导航](https://developers.weixin.qq.com/miniprogram/dev/api/ui-navigate.html)
+    * wx.navigateTo
+    ```
+    wx.navigateTo({
+        url: "test?id=1",
+        success: function,
+        fail: function,
+        complete: function
+    })
+    ```
+
+
 ## 开放接口
 ### 登录
 * wx.login
