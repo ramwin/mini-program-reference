@@ -1,0 +1,29 @@
+/* pages/component/view/scroll-view.wxss */
+
+.bc_green {
+  background: green;
+}
+.bc_red {
+  background: red;
+}
+.bc_yellow {
+  background: yellow;
+}
+.bc_blue {
+  background: blue;
+}
+.scroll-view-item {
+  height: 300rpx;
+}
+
+.scroll-view-item_H {
+  height: 300rpx;
+  width: 300rpx;
+  display: inline-block;
+}
+
+.scroll-viewH {
+  overflow: hidden;
+  display: flex;
+  white-space: nowrap;
+}

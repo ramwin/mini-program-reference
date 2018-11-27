@@ -6,7 +6,10 @@
       <navigator class="h4 a" url="/pages/frame/view/WXML">2.2.1.1. 事件</navigator>
     <navigator class="h3" url="/pages/frame/view/WXSS">2.2.2. 样式WXSS</navigator>
 <view class="h1">2. 组件</view>
-  <view class="h2">2.1. 表单组件</view>
+  <view class="h2">2.1. 视图容器</view>
+    <navigator url="/pages/component/view/scroll-view" class="a">2.1.2 scroll-view</navigator>
+  <view class="h2">2.2. 基础内容</view>
+  <view class="h2">2.3. 表单组件</view>
     <navigator url="/pages/component/form/picker">2.1.1 picker</navigator>
     <navigator url="/pages/component/form/checkbox">2.1.2 checkbox</navigator>
 <view class="h1">3. API</view>

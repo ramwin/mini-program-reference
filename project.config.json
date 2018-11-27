@@ -8,7 +8,7 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.0",
+	"libVersion": "2.4.0",
 	"appid": "wx49c680453307ac18",
 	"projectname": "mini-program-tutorial",
 	"isGameTourist": false,
@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 13,
+			"current": 14,
 			"list": [
 				{
 					"id": -1,
@@ -117,7 +117,13 @@
 				{
 					"id": -1,
 					"name": "    测试音频",
-					"pathName": "pages/api/media/audio"
+					"pathName": "pages/api/media/audio",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "组件 - 视图容器 - scroll-view",
+					"pathName": "pages/component/view/scroll-view"
 				}
 			]
 		}

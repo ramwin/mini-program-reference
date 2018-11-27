@@ -32,7 +32,15 @@ wx.request({
         "icon": "success|loading|none",
     })
     ```
-* 设置导航条
+
+* 滚动
+将页面滚动到目标位置
+wx.pageScrollTo({
+    scrollTop: 3000rpx;
+    duration: 300;
+})
+
+* [ ] 导航栏
 * 设置tabBar
 * 设置置顶信息
 * [导航](https://developers.weixin.qq.com/miniprogram/dev/api/ui-navigate.html)
