@@ -1,0 +1,7 @@
+<!--pages/component/form/button.wxml-->
+<view class="h3">按钮</view>
+<button size="normal">大按钮</button>
+<button size="mini">小按钮</button>
+<button size="mini" plain="true">没有样式的</button>
+<view class="h4">获取用户手机号</view>
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">点击获取手机号</button>

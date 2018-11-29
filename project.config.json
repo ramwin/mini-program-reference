@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 14,
+			"current": 15,
 			"list": [
 				{
 					"id": -1,
@@ -123,7 +123,14 @@
 				{
 					"id": -1,
 					"name": "组件 - 视图容器 - scroll-view",
-					"pathName": "pages/component/view/scroll-view"
+					"pathName": "pages/component/view/scroll-view",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "组件 - 表单组件 - button",
+					"pathName": "pages/component/form/button",
+					"query": ""
 				}
 			]
 		}

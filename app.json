@@ -26,7 +26,8 @@
     "pages/frame/view/WXSS",
     "pages/api/media/audio",
     "pages/component/form/checkbox",
-    "pages/component/view/scroll-view"
+    "pages/component/view/scroll-view",
+    "pages/component/form/button"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

@@ -10,8 +10,9 @@
     <navigator url="/pages/component/view/scroll-view" class="a">2.1.2 scroll-view</navigator>
   <view class="h2">2.2. 基础内容</view>
   <view class="h2">2.3. 表单组件</view>
-    <navigator url="/pages/component/form/picker">2.1.1 picker</navigator>
-    <navigator url="/pages/component/form/checkbox">2.1.2 checkbox</navigator>
+    <navigator class="a" url="/pages/component/form/button">2.1.1 button按钮</navigator>
+    <navigator class="a" url="/pages/component/form/checkbox">2.1.2 checkbox</navigator>
+    <navigator class="a" url="/pages/component/form/picker">2.1.6 picker</navigator>
 <view class="h1">3. API</view>
   <view class="h2">2. 媒体</view>
     <navigator url="/pages/api/media/audio" class="h3">1. 音频</navigator>
