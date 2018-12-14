@@ -1,0 +1,7 @@
+/* pages/frame/custom-component/components/test-style.wxss */
+.test-style {
+  max-width: 600rpx;
+  height: 200rpx;
+}
+text {
+}

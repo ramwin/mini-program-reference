@@ -37,10 +37,20 @@
   background-color: transparent;
 }
 
+/* 边距 */
+.p-3 {
+  padding: 1rem !important;
+}
+
 /* 颜色 */
 .red {
   color: red;
 }
 .green {
   color: green;
+}
+
+/* 边框 */
+.border {
+  border: 1px solid #dee2e6 !important;
 }

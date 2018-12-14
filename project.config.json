@@ -8,7 +8,7 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.4.0",
+	"libVersion": "2.4.2",
 	"appid": "wx49c680453307ac18",
 	"projectname": "mini-program-tutorial",
 	"isGameTourist": false,
@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 16,
+			"current": 17,
 			"list": [
 				{
 					"id": -1,
@@ -135,7 +135,13 @@
 				{
 					"id": -1,
 					"name": "API - 界面 - 交互",
-					"pathName": "pages/api/interface/interaction"
+					"pathName": "pages/api/interface/interaction",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "框架 - 自定义组件 - 组件模板和样式",
+					"pathName": "pages/frame/custom-component/wxml-wxss"
 				}
 			]
 		}

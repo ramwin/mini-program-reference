@@ -1,0 +1,4 @@
+<!--pages/frame/custom-component/components/test-style.wxml-->
+<view class="border test-style">
+  <text class="my-color">我是test-style组件, 默认是黑色的字</text>
+</view>

@@ -28,7 +28,8 @@
     "pages/component/form/checkbox",
     "pages/component/view/scroll-view",
     "pages/component/form/button",
-    "pages/api/interface/interaction"
+    "pages/api/interface/interaction",
+    "pages/frame/custom-component/wxml-wxss"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

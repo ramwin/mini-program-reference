@@ -1,0 +1,4 @@
+/* pages/frame/custom-component/wxml-wxss.wxss */
+.my-color {
+  color: green;
+}

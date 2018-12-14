@@ -1,0 +1,8 @@
+<!--pages/frame/custom-component/wxml-wxss.wxml-->
+<view class="h3">测试组件样式</view>
+<view class="h4">默认组件样式</view>
+<wxml-wxss-component></wxml-wxss-component>
+<view class="h4 my-color">使用externalClasses</view>
+<wxml-wxss-component class="my-color"></wxml-wxss-component>
+<view class="h4">使用外部的class</view>
+<wxml-wxss-component class="p-3"></wxml-wxss-component>
