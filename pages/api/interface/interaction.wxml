@@ -1,0 +1,4 @@
+<!--pages/api/interface/interaction.wxml-->
+<text>pages/api/interface/interaction.wxml</text>
+<view class="h4">wx.showActionSheet</view>
+<button bindtap="actionsheet">点我测试</button>

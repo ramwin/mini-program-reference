@@ -27,7 +27,8 @@
     "pages/api/media/audio",
     "pages/component/form/checkbox",
     "pages/component/view/scroll-view",
-    "pages/component/form/button"
+    "pages/component/form/button",
+    "pages/api/interface/interaction"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

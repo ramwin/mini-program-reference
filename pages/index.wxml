@@ -5,6 +5,7 @@
     <view class="h3">2.2.1. WXML</view>
       <navigator class="h4 a" url="/pages/frame/view/WXML">2.2.1.1. 事件</navigator>
     <navigator class="h3" url="/pages/frame/view/WXSS">2.2.2. 样式WXSS</navigator>
+
 <view class="h1">2. 组件</view>
   <view class="h2">2.1. 视图容器</view>
     <navigator url="/pages/component/view/scroll-view" class="a">2.1.2 scroll-view</navigator>
@@ -13,6 +14,9 @@
     <navigator class="a" url="/pages/component/form/button">2.1.1 button按钮</navigator>
     <navigator class="a" url="/pages/component/form/checkbox">2.1.2 checkbox</navigator>
     <navigator class="a" url="/pages/component/form/picker">2.1.6 picker</navigator>
+
 <view class="h1">3. API</view>
   <view class="h2">2. 媒体</view>
     <navigator url="/pages/api/media/audio" class="h3">1. 音频</navigator>
+  <view class="h2">7. 界面</view>
+    <navigator url="/pages/api/interface/interaction" class="h3 a">4. 交互</navigator>
