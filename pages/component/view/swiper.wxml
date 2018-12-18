@@ -1,0 +1,14 @@
+<!--pages/component/view/swiper.wxml-->
+<view>这里是你要的按钮</view>
+<view class="border h-100">
+<swiper indicator-dots="{{indicatorDots}}"
+autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      <view style="background: red; height: 350rpx;">这里是很高的文字</view>
+      <view style="background: green; height: 350rpx;">这里是很高的文字</view>
+    </swiper-item>
+  </block>
+</swiper>
+</view>

@@ -11,6 +11,7 @@
 <view class="h1">2. 组件</view>
   <view class="h2">2.1. 视图容器</view>
     <navigator url="/pages/component/view/scroll-view" class="a">2.1.2 scroll-view</navigator>
+    <navigator url="/pages/component/view/swiper" class="a">2.1.3 swiper</navigator>
   <view class="h2">2.2. 基础内容</view>
   <view class="h2">2.3. 表单组件</view>
     <navigator class="a" url="/pages/component/form/button">2.1.1 button按钮</navigator>

@@ -29,7 +29,8 @@
     "pages/component/view/scroll-view",
     "pages/component/form/button",
     "pages/api/interface/interaction",
-    "pages/frame/custom-component/wxml-wxss"
+    "pages/frame/custom-component/wxml-wxss",
+    "pages/component/view/swiper"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

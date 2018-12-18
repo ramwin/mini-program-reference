@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 17,
+			"current": 18,
 			"list": [
 				{
 					"id": -1,
@@ -141,7 +141,13 @@
 				{
 					"id": -1,
 					"name": "框架 - 自定义组件 - 组件模板和样式",
-					"pathName": "pages/frame/custom-component/wxml-wxss"
+					"pathName": "pages/frame/custom-component/wxml-wxss",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "组件 - 视图容器 - swiper",
+					"pathName": "pages/component/view/swiper"
 				}
 			]
 		}
