@@ -25,13 +25,14 @@ wx.request({
 ## 界面
 [官网文档](https://developers.weixin.qq.com/miniprogram/dev/api/api-react.html)
 * ### 交互反馈:
-  1. wx.showToast
+  1. wx.showToast [官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.showToast.html)
   ```
   wx.showToast({
       "title": "成功",
       "icon": "success|loading|none",
   })
   ```
+
   2. wx.showModal
   ```
   wx.showModal({
