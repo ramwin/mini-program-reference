@@ -59,8 +59,17 @@ Page({
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
-
+  onShareAppMessage: function (event) {
+    if (event.target.dataset["scene"] == "分享1") {
+      return {
+        "title": "点击了分享按钮1"
+      }
+    }
+    if (event.target.dataset["scene"] == "分享2") {
+      return {
+        "title": "点击了分享按钮2"
+      }
+    }
   },
 
   getPhoneNumber: function(e) {

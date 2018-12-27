@@ -5,3 +5,5 @@
 <button size="mini" plain="true">没有样式的</button>
 <view class="h4">获取用户手机号</view>
 <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">点击获取手机号</button>
+<button open-type="share" bindgetphonenumber="getPhoneNumber" data-scene="分享1">分享1</button>
+<button open-type="share" bindgetphonenumber="getPhoneNumber" data-scene="分享2">分享2</button>
