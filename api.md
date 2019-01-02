@@ -1,7 +1,28 @@
 **Xiang Wang @ 2018-09-20 01:54:33**
 
-
 [官方文档](https://developers.weixin.qq.com/miniprogram/dev/api/)
+
+## 路由 [官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.navigateBack.html)
+
+### wx.navigateBack
+```
+wx.nanigateBack({
+    delta: number, // 返回的页面数, 如果delta大于现有页面数，则返回到首页
+    success: // 接口成功的返回
+    fail:
+    complete:
+})
+```
+
+### wx.navigateTo
+```
+wx.navigateTo({
+    url: "test?id=1",
+    success: function,
+    fail: function,
+    complete: function
+})
+```
 
 ## 网络
 ### 发起请求
@@ -65,16 +86,6 @@ wx.pageScrollTo({
 * [ ] 导航栏
 * 设置tabBar
 * 设置置顶信息
-* [导航](https://developers.weixin.qq.com/miniprogram/dev/api/ui-navigate.html)
-    * wx.navigateTo
-    ```
-    wx.navigateTo({
-        url: "test?id=1",
-        success: function,
-        fail: function,
-        complete: function
-    })
-    ```
 
 
 ## 开放接口
