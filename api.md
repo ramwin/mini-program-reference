@@ -7,7 +7,7 @@
 ### wx.navigateBack
 ```
 wx.nanigateBack({
-    delta: number, // 返回的页面数, 如果delta大于现有页面数，则返回到首页
+    delta: number, // 返回的页面数, 如果delta大于现有页面数，则返回到首页, 必填
     success: // 接口成功的返回
     fail:
     complete:
