@@ -6,3 +6,11 @@
 <wxml-wxss-component class="my-color"></wxml-wxss-component>
 <view class="h4">使用外部的class</view>
 <wxml-wxss-component class="p-3"></wxml-wxss-component>
+<view class="h4">测试使用组件如果有margin</view>
+<view class="border"></view>
+<component-margin></component-margin>
+<view class="border"></view>
+<view class="h4">测试使用组件如果有padding</view>
+<view class="border"></view>
+<component-padding></component-padding>
+<view class="border"></view>

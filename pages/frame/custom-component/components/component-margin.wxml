@@ -1,0 +1,4 @@
+<!--pages/frame/custom-component/components/component-margin.wxml-->
+<view class="border border-danger m-3">
+  我是一个有margin的组件
+</view>

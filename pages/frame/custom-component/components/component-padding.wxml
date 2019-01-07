@@ -1,0 +1,4 @@
+<!--pages/frame/custom-component/components/component-padding.wxml-->
+<view class="border border-danger p-3">
+  我是一个有padding的组件
+</view>

@@ -1,5 +1,7 @@
 {
     "usingComponents": {
-        "wxml-wxss-component": "./components/test-style"
+        "wxml-wxss-component": "./components/test-style",
+        "component-margin": "./components/component-margin",
+        "component-padding": "./components/component-padding"
     }
 }
