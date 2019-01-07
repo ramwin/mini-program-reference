@@ -14,3 +14,11 @@
 <view class="border"></view>
 <component-padding></component-padding>
 <view class="border"></view>
+<view class="h4">测试使用组件如果外部传入了margin</view>
+<view class="border"></view>
+<component-padding class="m-3"></component-padding>
+<view class="border"></view>
+<view class="h4">测试使用组件如果外部传入了padding</view>
+<view class="border"></view>
+<component-margin class="p-3"></component-margin>
+<view class="border"></view>
