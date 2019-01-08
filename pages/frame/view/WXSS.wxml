@@ -6,3 +6,10 @@
   <view class="{{class2}}">{{class2_name}}</view>
 
   <view class="h5">不同的变量产生不同的class</view>
+  <view class="h5">测试伪类first-child, last-child</view>
+    <view class="text-last-child">
+      <text class="item">第1段文字</text>
+      <text class="item">第2段文字</text>
+      <text class="item">第3段文字</text>
+      <text class="item">第4段文字</text>
+    </view>

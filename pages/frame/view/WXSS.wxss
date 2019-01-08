@@ -1,1 +1,10 @@
 /* pages/frame/view/WXSS.wxss */
+.text-last-child .item:first-child {
+  color: red;
+}
+.text-last-child .item:nth-child(2) {
+  color: yellow;
+}
+.text-last-child .item:nth-last-child(1) {
+  color: green
+}
