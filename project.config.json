@@ -1,11 +1,12 @@
 {
 	"description": "项目配置文件。",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"autoAudits": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.2",
@@ -30,8 +31,50 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 18,
+			"current": 19,
 			"list": [
+				{
+					"id": -1,
+					"name": "框架-视图层-WXSS",
+					"pathName": "pages/frame/view/WXSS",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "组件 - 视图容器 - scroll-view",
+					"pathName": "pages/component/view/scroll-view",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "组件 - 表单组件 - button",
+					"pathName": "pages/component/form/button",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "API - 界面 - 交互",
+					"pathName": "pages/api/interface/interaction",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "框架 - 自定义组件 - 组件模板和样式",
+					"pathName": "pages/frame/custom-component/wxml-wxss",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "组件 - 视图容器 - swiper",
+					"pathName": "pages/component/view/swiper",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "API - 网络 - 下载",
+					"pathName": "pages/api/network/download",
+					"query": ""
+				},
 				{
 					"id": -1,
 					"name": "扫描二维码进入",
@@ -104,50 +147,15 @@
 				},
 				{
 					"id": -1,
-					"name": "点击事件",
-					"pathName": "pages/frame/view/WXML",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "框架-视图层-WXSS",
-					"pathName": "pages/frame/view/WXSS",
-					"query": ""
-				},
-				{
-					"id": -1,
 					"name": "    测试音频",
 					"pathName": "pages/api/media/audio",
 					"query": ""
 				},
 				{
 					"id": -1,
-					"name": "组件 - 视图容器 - scroll-view",
-					"pathName": "pages/component/view/scroll-view",
+					"name": "点击事件",
+					"pathName": "pages/frame/view/WXML",
 					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "组件 - 表单组件 - button",
-					"pathName": "pages/component/form/button",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "API - 界面 - 交互",
-					"pathName": "pages/api/interface/interaction",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "框架 - 自定义组件 - 组件模板和样式",
-					"pathName": "pages/frame/custom-component/wxml-wxss",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "组件 - 视图容器 - swiper",
-					"pathName": "pages/component/view/swiper"
 				}
 			]
 		}

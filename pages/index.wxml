@@ -19,7 +19,11 @@
     <navigator class="a" url="/pages/component/form/picker">2.1.6 picker</navigator>
 
 <view class="h1">3. API</view>
-  <view class="h2">2. 媒体</view>
-    <navigator url="/pages/api/media/audio" class="h3">1. 音频</navigator>
-  <view class="h2">7. 界面</view>
+  <view class="h2">3 界面</view>
     <navigator url="/pages/api/interface/interaction" class="h3 a">4. 交互</navigator>
+  <view class="h2">4 网络</view>
+    <navigator url="/pages/api/network/download" class="h3 a">3.1.2 下载</navigator>
+  <view class="h2">6 媒体</view>
+    <navigator url="/pages/api/media/audio" class="h3">1. 音频</navigator>
+  <view class="h2">11 开放接口</view>
+    <navigator url="/pages/api/openapi/authorize" class="h3 a">9. 授权</navigator>

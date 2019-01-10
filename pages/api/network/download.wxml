@@ -1,0 +1,4 @@
+<!--pages/api/network/download.wxml-->
+<view class="h3">测试下载功能</view>
+<view class="h4">wx.downloadFile</view>
+<button bind:tap="download">点我开始下载</button>

@@ -30,7 +30,9 @@
     "pages/component/form/button",
     "pages/api/interface/interaction",
     "pages/frame/custom-component/wxml-wxss",
-    "pages/component/view/swiper"
+    "pages/component/view/swiper",
+    "pages/api/network/download",
+    "pages/api/openapi/authorize"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",
