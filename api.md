@@ -26,7 +26,7 @@ wx.navigateTo({
 
 ## 界面
 [官网文档](https://developers.weixin.qq.com/miniprogram/dev/api/api-react.html)
-* ### 交互反馈:
+### 交互反馈:
     1. wx.showToast [官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.showToast.html)
     ```
     wx.showToast({
@@ -57,14 +57,22 @@ wx.navigateTo({
     })
     ```
 
-* 滚动
+### 导航栏
+* 修改顶部页面标题
+```
+wx.setNavigationBarTitle({
+  title: "当前页面"
+})
+```
+
+### 滚动
 将页面滚动到目标位置
 wx.pageScrollTo({
     scrollTop: 3000rpx;
     duration: 300;
 })
 
-* [ ] 导航栏
+### 其他
 * 设置tabBar
 * 设置置顶信息
 
