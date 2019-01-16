@@ -1,5 +1,6 @@
 **Xiang Wang @ 2018-09-20 01:54:33**
 
+* [小程序文档](./README.md)
 * [官方文档](https://developers.weixin.qq.com/miniprogram/dev/api/)
 
 ## 路由 [官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.navigateBack.html)
