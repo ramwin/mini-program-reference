@@ -66,6 +66,12 @@ wx.setNavigationBarTitle({
 })
 ```
 
+### 下拉刷新
+* wx.stopPullDownRefresh
+开启下拉刷新，并且会触发 page.onPullDownRefresh
+* wx.startPullDownRefresh
+关闭下拉刷新的动画
+
 ### 滚动
 将页面滚动到目标位置
 wx.pageScrollTo({
