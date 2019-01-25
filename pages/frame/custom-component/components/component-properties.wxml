@@ -1,0 +1,5 @@
+<!--pages/frame/custom-component/components/component-properties.wxml-->
+<view class="border border-primary">
+  <text>我是组件 component-properties</text>
+  <view>我的innerpropertya(默认false): <text>{{innerpropertya}}</text></view>
+</view>

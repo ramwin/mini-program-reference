@@ -7,6 +7,7 @@
     <navigator class="h3" url="/pages/frame/view/WXSS">2.2.2. 样式WXSS</navigator>
   <view class="h2">2.3. 自定义组件</view>
     <navigator class="h3 a" url="/pages/frame/custom-component/wxml-wxss">2.3.1 组件模板和样式</navigator>
+    <navigator class="h3 a" url="/pages/frame/custom-component/component">2.3.2 组件构造器</navigator>
 
 <view class="h1">2. 组件</view>
   <view class="h2">2.1. 视图容器</view>

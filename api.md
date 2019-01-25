@@ -122,7 +122,7 @@ wx.downloadFile({
 ### 图片
 * 保存图片到相册 需要先授权
 ```
-wx.saveImageTOPhotosAlbum({
+wx.saveImageToPhotosAlbum({
     filePath: 图片路径, 必须是临时文件路径或者永久路径
     success(res) {}
 })

@@ -1,0 +1,19 @@
+<!--pages/frame/custom-component/component.wxml-->
+<view class="h3">2.3.2 组件构造器</view>
+<view class="h4">properties</view>
+<view class="h5">测试如果传入布尔值</view>
+
+<view>简单用法: 传入数据true, booltrue: {{booltrue}}, 成功</view>
+<component-properties propertya="{{booltrue}}" id="directtrue"></component-properties>
+
+<view>简单用法2: 传入数据false, booltrue: {{boolfalse}}, 成功. 但是因为传入的和原始的就是一样，所以就不再触发observer了</view>
+<component-properties propertya="{{boolfalse}}" id="directfalse"></component-properties>
+
+<view>直接传入true, 成功, 但是不是因为传入了true, 而是因为传入了数据</view>
+<component-properties propertya="true" id="stringtrue"></component-properties>
+
+<view>所以就算传入了false, 得到的仍然是true</view>
+<component-properties propertya="false" id="stringfalse"></component-properties>
+
+<view>传入空字符串, 默认为true就会当成false，然后触发observer, 默认为false就不触发</view>
+<component-properties propertya="" id="emptystring"></component-properties>

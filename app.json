@@ -32,7 +32,8 @@
     "pages/frame/custom-component/wxml-wxss",
     "pages/component/view/swiper",
     "pages/api/network/download",
-    "pages/api/openapi/authorize"
+    "pages/api/openapi/authorize",
+    "pages/frame/custom-component/component"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",
