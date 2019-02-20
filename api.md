@@ -67,10 +67,11 @@ wx.setNavigationBarTitle({
 ```
 
 ### 下拉刷新
-* wx.stopPullDownRefresh
-开启下拉刷新，并且会触发 page.onPullDownRefresh
+[官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.stopPullDownRefresh.html)
+* wx.stopPullDownRefresh  
+停止下拉刷新，
 * wx.startPullDownRefresh
-关闭下拉刷新的动画
+开始下拉刷新的动画, 并且会触发 page.onPullDownRefresh
 
 ### 滚动
 将页面滚动到目标位置
@@ -139,6 +140,22 @@ wx.previewImage({
 * [ ] 客户端会话选择文件
 * [ ] 从本地相册选择文件
 
+
+## 位置
+* wx.chooseLocation
+```
+wx.chooseLocation({
+  success: function(res) {
+    res: {
+        name: "江苏省溧阳中学",
+        address: "江苏省常州市溧阳市南环西路88号",
+        latitude: "31.41727",
+        longitude: "119.47035",
+        errMsg: "chooseLocation:ok",
+    }
+  }
+})
+```
 
 ## 开放接口
 ### 登录
