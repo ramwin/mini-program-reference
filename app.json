@@ -33,7 +33,8 @@
     "pages/component/view/swiper",
     "pages/api/network/download",
     "pages/api/openapi/authorize",
-    "pages/frame/custom-component/component"
+    "pages/frame/custom-component/component",
+    "pages/api/network/websocket"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

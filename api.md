@@ -86,7 +86,7 @@ wx.pageScrollTo({
 
 
 ## 网络
-### 发起请求
+### [发起请求](https://developers.weixin.qq.com/miniprogram/dev/api/wx.request.html)
 ```
 wx.request({
     url: '',
@@ -117,6 +117,12 @@ wx.downloadFile({
         }
       }
 })
+```
+### WebSocket
+[官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.sendSocketMessage.html)
+* 例子
+```
+wx.connectSocket()
 ```
 
 ## 媒体

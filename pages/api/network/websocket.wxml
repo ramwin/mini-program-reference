@@ -1,0 +1,10 @@
+<!--pages/api/network/websocket.wxml-->
+
+<view class="h3">测试WebSocket</view>
+<button bind:tap="sendone">发送消息</button>
+<button bind:tap="close">断开链接</button>
+<button bind:tap="stopheart">停止心跳</button>
+<navigator bind:tap=""></navigator>
+<view wx:for="{{messages}}">
+  <view>{{item}}</view>
+</view>
