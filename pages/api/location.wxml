@@ -1,0 +1,7 @@
+<!--pages/api/location.wxml-->
+<view class="h2">位置</view>
+<view class="h3"> [ ] openlocation </view>
+<button catch:tap="openlocation">openlocation</button>
+<view class="h3"> [ ] getLocation </view>
+<view class="h3"> chooseLocation </view>
+<button catch:tap="chooseLocation">chooseLocation</button>

@@ -6,6 +6,7 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
+		"nodeModules": false,
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
@@ -59,6 +60,12 @@
 				},
 				{
 					"id": -1,
+					"name": "组件 - 视图容器 - swiper",
+					"pathName": "pages/component/view/swiper",
+					"query": ""
+				},
+				{
+					"id": -1,
 					"name": "组件 - 表单组件 - button",
 					"pathName": "pages/component/form/button",
 					"query": ""
@@ -71,12 +78,6 @@
 				},
 				{
 					"id": -1,
-					"name": "组件 - 视图容器 - swiper",
-					"pathName": "pages/component/view/swiper",
-					"query": ""
-				},
-				{
-					"id": -1,
 					"name": "API - 网络 - 下载",
 					"pathName": "pages/api/network/download",
 					"query": ""
@@ -85,6 +86,12 @@
 					"id": -1,
 					"name": "API - 网络 - websocket",
 					"pathName": "pages/api/network/websocket",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "API - 位置",
+					"pathName": "pages/api/location",
 					"query": ""
 				},
 				{

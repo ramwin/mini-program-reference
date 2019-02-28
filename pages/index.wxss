@@ -1,1 +1,13 @@
 /* pages/index.wxss */
+.h2 {
+  margin-left: 20rpx;
+}
+.h3 {
+  margin-left: 30rpx;
+}
+.h4 {
+  margin-left: 40rpx;
+}
+.h5 {
+  margin-left: 50rpx;
+}

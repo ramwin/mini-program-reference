@@ -159,7 +159,19 @@ wx.chooseLocation({
         longitude: "119.47035",
         errMsg: "chooseLocation:ok",
     }
-  }
+  },
+  fail: res => {
+    switch (res.errMsg) {
+      case "chooseLocation:fail auth deny":
+        console.info("用户拒绝授权")
+        break;
+      case "chooseLocation:fail cancel":
+        console.info("用户取消");
+        break;
+      default:
+        throw Error(errMsg.errMsg);
+    }
+  },
 })
 ```
 
