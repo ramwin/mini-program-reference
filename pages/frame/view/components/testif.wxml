@@ -1,4 +1,0 @@
-<!--pages/frame/view/components/testif.wxml-->
-<view>
-  <text class="{{mybool? 'text-green': 'text-red'}}">我是testif的组件, 当前的传入{{mybool}}</text>
-</view>

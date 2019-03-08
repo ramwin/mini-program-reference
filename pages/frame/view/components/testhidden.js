@@ -1,27 +1,26 @@
- // pages/frame/view/components/testif.js
-const DEFAULT_BOOL = true
+// pages/frame/view/components/testhidden.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    propmybool: {
+    propbool: {
       type: Boolean,
-      value: DEFAULT_BOOL,
+      value: false,
       observer: function(newVal, oldVal) {
-        console.info("传入了propmybool", newVal);
+        console.info("输入propbool", newVal);
         this.setData({
           "mybool": newVal,
         })
       }
-    },
+    }
   },
 
   /**
    * 组件的初始数据
    */
   data: {
-    "mybool": DEFAULT_BOOL,
+
   },
 
   /**

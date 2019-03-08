@@ -9,7 +9,5 @@
   如果mybool是true,我就显示
 </view>
 <view class="h5">2.2.1.3.1 如果是组件呢</view>
-<testif hidden="{{mybool}}" propmybool="{{mybool}}"></testif>
-<testif hidden="{{!mybool}}" propmybool="{{!mybool}}"></testif>
-<testif hidden="{{mybool}}" propmybool="{{!mybool}}"></testif>
-<testif hidden="{{!mybool}}" propmybool="{{mybool}}"></testif>
+<testhidden hidden="{{mybool}}" propbool="{{mybool}}"></testhidden>
+<testhidden hidden="{{!mybool}}" propbool="{{!mybool}}"></testhidden>

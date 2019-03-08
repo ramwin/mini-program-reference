@@ -1,0 +1,2 @@
+<!--pages/frame/view/components/testhidden.wxml-->
+<text class="{{mybool?'text-green': 'text-red'}}">我是组件 mybool:{{mybool}}</text>

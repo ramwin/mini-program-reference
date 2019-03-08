@@ -10,7 +10,7 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.5.1",
+	"libVersion": "2.6.2",
 	"appid": "wx49c680453307ac18",
 	"projectname": "mini-program-tutorial",
 	"isGameTourist": false,
