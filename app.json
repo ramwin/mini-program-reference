@@ -1,10 +1,4 @@
 {
-  "help": {
-    "name": "我自己写得帮助文件",
-    "pages": "所有页面的路径",
-    "window": "样式的配置",
-    "tabBar": "下面的菜单栏，至少要有两个"
-  },
   "pages": [
     "pages/index",
     "pages/bar/index",
@@ -35,7 +29,8 @@
     "pages/api/openapi/authorize",
     "pages/frame/custom-component/component",
     "pages/api/network/websocket",
-    "pages/api/location"
+    "pages/api/location",
+    "pages/frame/view/wxif"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

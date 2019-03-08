@@ -3,7 +3,8 @@
 <view class="h1">1. 框架</view>
   <view class="h2">2.2. 视图层</view>
     <view class="h3">2.2.1. WXML</view>
-      <navigator class="h4 a" url="/pages/frame/view/WXML">2.2.1.1. 事件</navigator>
+      <navigator class="h4 a" url="/pages/frame/view/wxif">2.2.1.3. 条件渲染</navigator>
+      <navigator class="h4 a" url="/pages/frame/view/WXML">2.2.1.5. 事件</navigator>
     <navigator class="h3" url="/pages/frame/view/WXSS">2.2.2. 样式WXSS</navigator>
   <view class="h2">2.3. 自定义组件</view>
     <navigator class="h3 a" url="/pages/frame/custom-component/wxml-wxss">2.3.1 组件模板和样式</navigator>

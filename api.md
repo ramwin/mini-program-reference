@@ -136,15 +136,28 @@ wx.saveImageToPhotosAlbum({
 ```
 
 * 预览图片
+[官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.previewImage.html)
 ```
 wx.previewImage({
   urls: "需要预览的图片列表",
+  current: //, 当前显示的图片链接
 })
 ```
 * [ ] 获取图片信息
 * [ ] 压缩图片
 * [ ] 客户端会话选择文件
-* [ ] 从本地相册选择文件
+* 从本地相册选择文件
+[官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.chooseImage.html)
+```
+wx.chooseImage({
+    count: 9  // 最多选几张
+    sizeType: ["original", "compressed"],  //尺寸
+    sourceType: ["album", "camera"], // 图片来源
+    success: (res) {
+        const tempFilePaths = res.tempFilePaths
+    }
+})
+```
 
 
 ## 位置

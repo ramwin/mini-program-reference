@@ -1,0 +1,15 @@
+<!--pages/frame/view/wxif.wxml-->
+<text class="h4">2.2.1.3. 测试条件渲染的</text>
+<view>mybool: {{mybool}}</view>
+<button bind:tap="switchbool">点我切换mybool</button>
+<view hidden="{{mybool}}" class="text-red">
+  如果mybool是true,我就隐藏
+</view>
+<view hidden="{{!mybool}}" class="text-green">
+  如果mybool是true,我就显示
+</view>
+<view class="h5">2.2.1.3.1 如果是组件呢</view>
+<testif hidden="{{mybool}}" propmybool="{{mybool}}"></testif>
+<testif hidden="{{!mybool}}" propmybool="{{!mybool}}"></testif>
+<testif hidden="{{mybool}}" propmybool="{{!mybool}}"></testif>
+<testif hidden="{{!mybool}}" propmybool="{{mybool}}"></testif>

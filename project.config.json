@@ -36,6 +36,12 @@
 			"list": [
 				{
 					"id": -1,
+					"name": "框架 - 视图层 - WXML - 条件渲染",
+					"pathName": "pages/frame/view/wxif",
+					"query": ""
+				},
+				{
+					"id": -1,
 					"name": "框架-视图层-WXSS",
 					"pathName": "pages/frame/view/WXSS",
 					"query": ""

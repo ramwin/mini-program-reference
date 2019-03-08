@@ -43,10 +43,14 @@
 }
 
 /* 颜色 */
-.red {
+
+.text-danger {
+  color: #dc3545 !important;
+}
+.text-red, .red {
   color: red;
 }
-.green {
+.text-green, .green {
   color: green;
 }
 
@@ -377,4 +381,10 @@
 .pl-5,
 .px-5 {
   padding-left: 3rem !important;
+}
+
+
+/* 布局 */
+.d-flex {
+  display: flex;
 }
