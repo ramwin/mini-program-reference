@@ -9,5 +9,6 @@
   如果mybool是true,我就显示
 </view>
 <view class="h5">2.2.1.3.1 如果是组件呢</view>
-<testhidden hidden="{{mybool}}" propbool="{{mybool}}"></testhidden>
-<testhidden hidden="{{!mybool}}" propbool="{{!mybool}}"></testhidden>
+<testhidden hidden="{{mybool}}" wx:if="{{mybool}}" propbool="{{mybool}}"></testhidden>
+<view>直接使用属性</view>
+<testhidden hidden="{{mybool? true: false}}"></testhidden>

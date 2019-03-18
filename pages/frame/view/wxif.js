@@ -5,7 +5,11 @@ Page({
    * 页面的初始数据
    */
   data: {
-    'mybool': true
+    'mybool': true,
+    'mybool2': false,
+    'mybool3': null,
+    'mybool4': "",
+    'mybool5': undefined,
   },
 
   /**
