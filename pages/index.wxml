@@ -22,7 +22,8 @@
 
 <view class="h1">3. API</view>
   <view class="h2">3 界面</view>
-    <navigator url="/pages/api/interface/interaction" class="h3 a">4. 交互</navigator>
+    <navigator url="/pages/api/interface/interaction" class="h3 a">1. 交互</navigator>
+    <navigator url="/pages/api/interface/animation" class="h3 a">8. 动画</navigator>
   <view class="h2">4. 网络</view>
     <navigator url="/pages/api/network/download" class="h3 a">3.1.2. 下载</navigator>
     <navigator url="/pages/api/network/websocket" class="h3 a">3.1.4. WebSocket</navigator>

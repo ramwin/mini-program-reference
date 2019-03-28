@@ -29,6 +29,12 @@
 ### 下载
 ## [界面](./api.md#界面)
 * ### 交互反馈
+### 动画
+```
+var animation = wx.createAnimation(Object object)
+<view animation={{animation}}>
+</view>
+```
 
 ## 媒体
 ### 图片

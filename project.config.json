@@ -32,7 +32,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 21,
+			"current": 338,
 			"list": [
 				{
 					"id": -1,
@@ -86,6 +86,12 @@
 					"id": -1,
 					"name": "API - 界面 - 交互",
 					"pathName": "pages/api/interface/interaction",
+					"query": ""
+				},
+				{
+					"id": 338,
+					"name": "API - 界面 - 动画",
+					"pathName": "pages/api/interface/animation",
 					"query": ""
 				},
 				{

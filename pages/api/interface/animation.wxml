@@ -1,0 +1,11 @@
+<!--pages/api/interface/animation.wxml-->
+<view class="h3">预先定义animation</view>
+<view style="background: red; height: 200rpx; width: 200rpx;" animation="{{animationData}}" catch:tap="tap1">
+</view>
+<view class="h3">点击后创建animation</view>
+<view style="background: green; height: 200rpx; width: 200rpx;" animation="{{animationData2}}" catch:tap="tap2">
+</view>
+<view class="h3">scale缩放后隐藏</view>
+<text>看看scale时hidden或者wxif,是否会导致动画不能执行完毕: 会的，所以要在动画结束以后才消失</text>
+<view style="background: green; height: 200rpx; width: 200rpx;" animation="{{animation}}" catch:tap="tapscale" bind:transitionend="animationend" hidden="{{!scale_hide}}">
+</view>

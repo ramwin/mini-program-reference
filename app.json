@@ -31,7 +31,8 @@
     "pages/api/network/websocket",
     "pages/api/location",
     "pages/frame/view/wxif",
-    "pages/component/form/input"
+    "pages/component/form/input",
+    "pages/api/interface/animation"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",
