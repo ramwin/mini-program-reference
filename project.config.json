@@ -78,6 +78,12 @@
 				},
 				{
 					"id": -1,
+					"name": "组件 - 表单组件 - input",
+					"pathName": "pages/component/form/input",
+					"query": ""
+				},
+				{
+					"id": -1,
 					"name": "API - 界面 - 交互",
 					"pathName": "pages/api/interface/interaction",
 					"query": ""
