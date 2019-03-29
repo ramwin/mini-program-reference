@@ -28,35 +28,41 @@ wx.navigateTo({
 ## 界面
 [官网文档](https://developers.weixin.qq.com/miniprogram/dev/api/api-react.html)
 ### 交互反馈:
-    1. wx.showToast [官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.showToast.html)
-    ```
-    wx.showToast({
-        "title": "成功",
-        "icon": "success|loading|none",
-    })
-    ```
+1. wx.showToast [官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.showToast.html)
+```
+wx.showToast({
+    "title": "成功",
+    "icon": "success|loading|none", 前两个最多显示7个汉字，后面的显示2行
+    "image": "", 自定义本地图标,
+    "duration": 1500, 提示事件,
+    "mask": 是否显示透明蒙层,
+    "success": 成功的函数, 但是注意，这个函数不会等duration过了才执行，而是立刻执行
+    "fail": 
+    "complete":
+})
+```
 
-    2. wx.showModal
-    ```
-    wx.showModal({
-      title: '提示的标题',
-      content: '提示的内容',
-      success (res) {
-        if (res.confirm) {
-          console.log('用户点击确定')
-        } else if (res.cancel) {
-          console.log('用户点击取消')
-        }
-      },
-      // 可选参数
-      showCancel: true, // 是否显示取消按钮， 默认True
-      cancelColor: "#000000",  // 取消按钮的文字颜色
-      confirmText: "确认",  // 最多4个
-      confirmColor: "#3cc51f",
-      fail: "", // 接口调用失败，几乎不可能
-      complete: "", // 接口调用结束
-    })
-    ```
+2. wx.showModal
+```
+wx.showModal({
+  title: '提示的标题',
+  content: '提示的内容',
+  success (res) {
+    if (res.confirm) {
+      console.log('用户点击确定')
+    } else if (res.cancel) {
+      console.log('用户点击取消')
+    }
+  },
+  // 可选参数
+  showCancel: true, // 是否显示取消按钮， 默认True
+  cancelColor: "#000000",  // 取消按钮的文字颜色
+  confirmText: "确认",  // 最多4个
+  confirmColor: "#3cc51f",
+  fail: "", // 接口调用失败，几乎不可能
+  complete: "", // 接口调用结束
+})
+```
 
 ### 导航栏
 * 修改顶部页面标题
