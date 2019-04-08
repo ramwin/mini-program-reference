@@ -78,12 +78,15 @@ wx.showModal({
 ```
 
 ### 导航栏
-* 修改顶部页面标题
+* showNavigationBarLoading
+* setNavigationBarTitle
 ```
 wx.setNavigationBarTitle({
   title: "当前页面"
 })
 ```
+* setNavigationBarColor
+* hideNavigationBarLoading
 
 ### 下拉刷新
 [官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.stopPullDownRefresh.html)
