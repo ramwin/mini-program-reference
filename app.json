@@ -32,7 +32,8 @@
     "pages/api/location",
     "pages/frame/view/wxif",
     "pages/component/form/input",
-    "pages/api/interface/animation"
+    "pages/api/interface/animation",
+    "pages/frame/custom-component/events"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

@@ -3,13 +3,15 @@
 * [小程序文档](./README.md)
 * [官方文档](https://developers.weixin.qq.com/miniprogram/dev/api/)
 
-## 路由 [官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.navigateBack.html)
+## 路由
+[官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.navigateBack.html)
 
-### wx.navigateBack
+### wx.redirectTo
+关闭当前页面，跳转到应用内的某个页面,不允许跳转到tabbar页面
 ```
-wx.nanigateBack({
-    delta: number, // 返回的页面数, 如果delta大于现有页面数，则返回到首页, 必填
-    success: // 接口成功的返回
+wx.redirectTo({
+    url:
+    success:
     fail:
     complete:
 })
@@ -22,6 +24,17 @@ wx.navigateTo({
     success: function,
     fail: function,
     complete: function
+})
+```
+
+
+### wx.navigateBack
+```
+wx.nanigateBack({
+    delta: number, // 返回的页面数, 如果delta大于现有页面数，则返回到首页, 必填
+    success: // 接口成功的返回
+    fail:
+    complete:
 })
 ```
 

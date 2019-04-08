@@ -1,0 +1,6 @@
+<!--pages/frame/custom-component/events.wxml-->
+<view class="h3">测试组件的事件</view>
+<view class="h4">使用selectComponent直接触发事件</view>
+<button catch:tap="tapevent">点我触发事件</button>
+<component id="testevent"></component>
+<button catch:tap="tapeventnotfound">点我触发事件, 没有组件会返回null</button>

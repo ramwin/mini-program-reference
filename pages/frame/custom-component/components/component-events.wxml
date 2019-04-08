@@ -1,0 +1,4 @@
+<view>
+  <text>我是用来测试event的组件</text>
+  <text>{{title}} {{count}}</text>
+</view>

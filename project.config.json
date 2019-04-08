@@ -36,6 +36,12 @@
 			"list": [
 				{
 					"id": -1,
+					"name": "框架 - 指南 - 自定义组件 - 组件事件",
+					"pathName": "pages/frame/custom-component/events",
+					"query": ""
+				},
+				{
+					"id": -1,
 					"name": "框架 - 视图层 - WXML - 条件渲染",
 					"pathName": "pages/frame/view/wxif",
 					"query": ""
