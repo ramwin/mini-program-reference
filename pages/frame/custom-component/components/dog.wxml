@@ -1,0 +1,5 @@
+<!--pages/frame/custom-component/components/dog.wxml-->
+<view style="font-size: {{size}}rpx">我是一条狗</view>
+<button bind:tap="grow">长大</button>
+<button bind:tap="ill">生病</button>
+<button bind:tap="say">卖萌</button>

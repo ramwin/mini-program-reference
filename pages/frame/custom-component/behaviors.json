@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+      "cat": "./components/cat",
+      "dog": "./components/dog"
+  }
+}

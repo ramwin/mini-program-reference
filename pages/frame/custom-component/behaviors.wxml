@@ -1,0 +1,4 @@
+<!--pages/frame/custom-component/behaviors.wxml-->
+<view class="h3">1.4.5 组件behaviors</view>
+<cat></cat>
+<dog></dog>

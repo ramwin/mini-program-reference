@@ -10,6 +10,7 @@
     <navigator class="h3 a" url="/pages/frame/custom-component/wxml-wxss">1.4.1 组件模板和样式</navigator>
     <navigator class="h3 a" url="/pages/frame/custom-component/component">1.4.2 组件构造器</navigator>
     <navigator class="h3 a" url="/pages/frame/custom-component/events">1.4.3 组件事件</navigator>
+    <navigator class="h3 a" url="/pages/frame/custom-component/behaviors">1.4.5 组件behaviors</navigator>
 
 <view class="h1">2. 框架</view>
 

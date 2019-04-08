@@ -33,7 +33,8 @@
     "pages/frame/view/wxif",
     "pages/component/form/input",
     "pages/api/interface/animation",
-    "pages/frame/custom-component/events"
+    "pages/frame/custom-component/events",
+    "pages/frame/custom-component/behaviors"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",
