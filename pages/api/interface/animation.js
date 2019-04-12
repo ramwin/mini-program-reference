@@ -5,7 +5,6 @@ Page({
     animationData2: null,
     scale_hide: true,
   },
-
   onLoad: function (options) {
     var animation = wx.createAnimation({
       duration: 1000,
@@ -15,10 +14,6 @@ Page({
     // animation.backgroundColor("#fff");
     this.animation = animation;
   },
-  onReady: function () {
-
-  },
-
   tap1: function() {
     console.info("点击了");
     this.animation.rotate(45).scale(2, 2).step();
@@ -30,7 +25,6 @@ Page({
     //   timingFunction: "linear",
     // });
   },
-
   tap2: function() {
     var animation2 = wx.createAnimation({
       duration: 1000,
@@ -43,7 +37,6 @@ Page({
       "animationData2":  animation2.export()
     })
   },
-
   tapscale: function() {
     console.info("scale")
     var animation = wx.createAnimation({
@@ -58,11 +51,9 @@ Page({
       "scale_hide": false,
     })
   },
-
   animationstart: function() {
     console.info("动画开始");
   },
-
   animationend: function() {
     console.info("动画结束");
     console.info("隐藏起来");
@@ -70,5 +61,4 @@ Page({
       "scale_hide": false,
     })
   },
-
 })

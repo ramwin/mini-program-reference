@@ -1,1 +1,24 @@
 /* pages/api/interface/animation.wxss */
+.bg-grey {
+  background-color: rgba(0,0,0,0.5);
+  padding: 30rpx;
+  z-index: 1070;
+}
+
+@keyframes rotate180 {
+  0% {
+  }
+  50% {
+    transform: rotate3d(0, 1, 0, 90deg)
+  }
+  50% {
+    transform: rotate3d(0, 1, 0, -90deg)
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, 0deg)
+  }
+}
+
+.rotate180 {
+  animation: rotate180 1s infinite;
+}

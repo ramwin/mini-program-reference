@@ -388,3 +388,17 @@
 .d-flex {
   display: flex;
 }
+
+.d-inline {
+  display: inline;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* 颜色 */
+.bg-white {
+  background: white;
+}
+

@@ -9,3 +9,7 @@
 <text>看看scale时hidden或者wxif,是否会导致动画不能执行完毕: 会的，所以要在动画结束以后才消失</text>
 <view style="background: green; height: 200rpx; width: 200rpx;" animation="{{animation}}" catch:tap="tapscale" bind:transitionend="animationend" hidden="{{!scale_hide}}">
 </view>
+<view class="h3">测试一致旋转是否会导致iphone出问题</view>
+<view class="bg-grey text-center">
+  <view class="bg-white rotate180">我是一段内容</view>
+</view>
