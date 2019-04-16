@@ -1,4 +1,5 @@
 <!--pages/frame/view/WXML.wxml-->
+
 <view class="h4">事件</view>
 <view class="h5">bindtap</view>
 <view id="tapTest" data-hi="WeChat" data-list="{{[1,2,3]}}" data-customer="{{complex_data}}" bindtap="tapName">点击我触发事件</view>
@@ -17,9 +18,10 @@ bind, 页面继续滚动.
 <view style="width: 300rpx; height: 300rpx;" class="bg-primary" catch:touchmove="catch_true">
 摸我,看看不冒泡, catch后return true 页面不再滚动
 </view>
+<button bind:tap="importcss">点我，不让页面滚动</button>
 <view style="width: 500rpx; height: 500rpx;" class="bg-success" bind:touchmove="bind_raise">
       我是蒙版，我不能滚
-  <view style="width: 400rpx; height: 400rpx; overflow: scroll" class="bg-warning">
+  <view id="ramquery" style="width: 400rpx; height: 400rpx; overflow: scroll" class="bg-warning">
     我不能滚
     <view style="width: 300rpx; height: 500rpx;" class="bg-primary" bind:touchmove="touchmove">
       我是儿子，我要滚

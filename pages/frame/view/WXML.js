@@ -5,7 +5,8 @@ Page({
       list: [1,2,3],
       dict: {"key": "value"},
       str: "string",
-    }
+    },
+    importcss: false,
   },
 
   onLoad: function (options) {
@@ -58,5 +59,20 @@ Page({
   },
   bind_raise: function(evt) {
     throw Error("你的蒙版，你不能滚");
+  },
+  importcss: function() {
+    var query = wx.createSelectorQuery();
+    var rect = query.select("#ramquery").boundingClientRect()
+    console.info("rect", rect)
+    query.exec(function(res) {
+      console.info("res", res);
+      res[0]
+    })
+    this.setData({
+      "importcss": true
+    })
+    query.select("body")
+    query.exec(function(res) {
+    })
   }
 })
