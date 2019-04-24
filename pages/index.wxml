@@ -31,6 +31,8 @@
   <view class="h2">4. 网络</view>
     <navigator url="/pages/api/network/download" class="h3 a">3.1.2. 下载</navigator>
     <navigator url="/pages/api/network/websocket" class="h3 a">3.1.4. WebSocket</navigator>
+  <view class="h2">5. 数据缓存</view>
+    <navigator url="/pages/api/storage" class="h3 a">5.3 数据缓存</navigator>
   <view class="h2">6. 媒体</view>
     <navigator url="/pages/api/media/audio" class="h3">3.6.1. 音频</navigator>
   <navigator class="h2 a" url="/pages/api/location">7. 位置</navigator>

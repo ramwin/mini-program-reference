@@ -1,0 +1,4 @@
+<!--pages/api/storage.wxml-->
+<view class="h2">数据缓存</view>
+<button bind:tap="set">点我设置</button>
+<button bind:tap="show">点我查看</button>

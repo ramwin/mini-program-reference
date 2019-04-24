@@ -34,7 +34,8 @@
     "pages/component/form/input",
     "pages/api/interface/animation",
     "pages/frame/custom-component/events",
-    "pages/frame/custom-component/behaviors"
+    "pages/frame/custom-component/behaviors",
+    "pages/api/storage"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",
@@ -59,5 +60,6 @@
       }
     ]
   },
-  "debug": true
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
 }

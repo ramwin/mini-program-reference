@@ -12,8 +12,10 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.6.2",
 	"appid": "wx49c680453307ac18",
-	"projectname": "mini-program-tutorial",
+	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AD%A6%E4%B9%A0%E5%8F%82%E8%80%83",
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -110,6 +112,12 @@
 					"id": 338,
 					"name": "API - 界面 - 动画",
 					"pathName": "pages/api/interface/animation",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "API - 数据缓存",
+					"pathName": "pages/api/storage",
 					"query": ""
 				},
 				{
