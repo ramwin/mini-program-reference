@@ -36,5 +36,6 @@
   <view class="h2">6. 媒体</view>
     <navigator url="/pages/api/media/audio" class="h3">3.6.1. 音频</navigator>
   <navigator class="h2 a" url="/pages/api/location">7. 位置</navigator>
+  <navigator class="h2 a" url="/pages/api/share">8. 转发</navigator>
   <view class="h2">11. 开放接口</view>
     <navigator url="/pages/api/openapi/authorize" class="h3 a">11.9. 授权</navigator>

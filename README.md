@@ -35,7 +35,7 @@
 * ## 画布
 * ## 开放能力
 
-# API
+# [API](https://developers.weixin.qq.com/miniprogram/dev/api/)
 ## [路由](./api.md#路由-官网)
 ## [网络](./api.md)
 ### 下载
@@ -52,6 +52,10 @@ var animation = wx.createAnimation(Object object)
 ## 媒体
 ### 图片
 * [预览图片](./api.md#图片)
+
+## 转发
+* wx.hideShareMenu: *隐藏转发按钮*
+* wx.showShareMenu: *显示转发按钮*
 
 ## 开放接口
 

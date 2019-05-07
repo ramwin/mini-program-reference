@@ -35,7 +35,8 @@
     "pages/api/interface/animation",
     "pages/frame/custom-component/events",
     "pages/frame/custom-component/behaviors",
-    "pages/api/storage"
+    "pages/api/storage",
+    "pages/api/share"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

@@ -1,0 +1,3 @@
+<!--pages/api/share.wxml-->
+<text>pages/api/share.wxml</text>
+<button bind:tap="share">转发</button>
