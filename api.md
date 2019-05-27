@@ -1,7 +1,6 @@
 **Xiang Wang @ 2018-09-20 01:54:33**
 
-* [小程序文档](./README.md)
-* [官方文档](https://developers.weixin.qq.com/miniprogram/dev/api/)
+[官方api文档](https://developers.weixin.qq.com/miniprogram/dev/api/)
 
 ## 路由
 [官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.navigateBack.html)
@@ -38,10 +37,9 @@ wx.nanigateBack({
 })
 ```
 
-## 界面
-[官网文档](https://developers.weixin.qq.com/miniprogram/dev/api/api-react.html)
-### 交互反馈:
-1. wx.showToast [官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.showToast.html)
+## [界面][界面]
+### 交互反馈
+1. [`wx.showToast`][showtoast]
 ```
 wx.showToast({
     "title": "成功",
@@ -55,19 +53,18 @@ wx.showToast({
 })
 ```
 
-2. wx.showModal
+2. `wx.showModal`
 ```
 wx.showModal({
   title: '提示的标题',
   content: '提示的内容',
   success (res) {
-    if (res.confirm) {
-      console.log('用户点击确定')
-    } else if (res.cancel) {
-      console.log('用户点击取消')
-    }
+      if (res.confirm) {
+          console.log('用户点击确定')
+      } else if (res.cancel) {
+          console.log('用户点击取消')
+      }
   },
-  // 可选参数
   showCancel: true, // 是否显示取消按钮， 默认True
   cancelColor: "#000000",  // 取消按钮的文字颜色
   confirmText: "确认",  // 最多4个
@@ -76,6 +73,24 @@ wx.showModal({
   complete: "", // 接口调用结束
 })
 ```
+
+3. `wx.showLoading`
+显示Loading提示框，必须主动调用`wx.hideLoading`才能关闭
+```
+wx.showLoading({
+  title: "提示的内容",
+  mask: false,  // 是否显示蒙层防止触摸
+})
+```
+
+4. [ ] wx.showActionSheet
+
+5. `wx.hideToast`
+隐藏消息提示框
+
+6. `wx.hideLoading`
+隐藏loading提示框
+
 
 ### 导航栏
 * showNavigationBarLoading
@@ -152,7 +167,7 @@ wx.connectSocket()
 * 保存图片到相册 需要先授权
 ```
 wx.saveImageToPhotosAlbum({
-    filePath: 图片路径, 必须是临时文件路径或者永久路径
+    filePath: 图片路径, 必须是临时文件路径或者永久路径, 不支持网络路径
     success(res) {}
 })
 ```
@@ -224,6 +239,22 @@ wx.chooseLocation({
 ### 用户信息
 见 [button组件](./组件.md#button)
 
+### 支付
+* wx.requestPayment
+```
+wx.requestPayment({
+  timeStamp: '',
+  nonceStr: '',
+  package: '',
+  signType: 'MD5',
+  paySign: '',
+  success(res) {
+    res基本没有什么信息了
+  },
+  fail(res) { }
+})
+```
+
 ### 授权
 这个授权真的是用fail, success来判断。但是授权拒绝一次或者同意一次，就不再弹窗提问了。
 ```
@@ -241,3 +272,6 @@ wx.getSetting({
   }
 })
 ```
+
+[界面]: https://developers.weixin.qq.com/miniprogram/dev/api/wx.showToast.html
+[showtoast]: https://developers.weixin.qq.com/miniprogram/dev/api/wx.showToast.html

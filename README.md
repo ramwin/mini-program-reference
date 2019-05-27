@@ -15,6 +15,7 @@
 * [ ] 场景值
 * ## [框架接口](./框架.md)
     * 页面
+    [生命周期](./框架.md)
 * [ ] WXML语法参考
 * [ ] WXS语法参考
 
@@ -35,7 +36,7 @@
 * ## 画布
 * ## 开放能力
 
-# [API](https://developers.weixin.qq.com/miniprogram/dev/api/)
+# [API](./api.md)
 ## [路由](./api.md#路由-官网)
 ## [网络](./api.md)
 ### 下载
