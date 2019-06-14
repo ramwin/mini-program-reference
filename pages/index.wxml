@@ -22,7 +22,8 @@
   <view class="h2">2.3. 表单组件</view>
     <navigator class="a" url="/pages/component/form/button">2.1.1 button按钮</navigator>
     <navigator class="a" url="/pages/component/form/checkbox">2.1.2 checkbox</navigator>
-    <navigator class="a" url="/pages/component/form/picker">2.1.6 picker</navigator>
+    <navigator class="a" url="/pages/component/form/input">2.1.6 input</navigator>
+    <navigator class="a" url="/pages/component/form/picker">2.1.8 picker</navigator>
 
 <view class="h1">4. API</view>
   <view class="h2">3 界面</view>

@@ -62,5 +62,8 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  bindinput: function(event) {
+    console.info(event);
+  },
 })
