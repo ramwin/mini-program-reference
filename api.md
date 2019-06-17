@@ -1,7 +1,7 @@
 **Xiang Wang @ 2018-09-20 01:54:33**
 
 [官方api文档](https://developers.weixin.qq.com/miniprogram/dev/api/)
-
+## 基础
 ## 路由
 [官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.navigateBack.html)
 
@@ -36,6 +36,11 @@ wx.nanigateBack({
     complete:
 })
 ```
+
+## 数据缓存
+* wx.setStorageSync(key, data)  // 支持原生类型, Date
+* wx.setStorage(object)  // 异步设置storage，真的不明白做这个是为了什么
+* wx.removeStorageSync(key)  // 删除一个缓存
 
 ## [界面][界面]
 ### 交互反馈
