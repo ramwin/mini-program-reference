@@ -192,7 +192,7 @@ wx.previewImage({
 [官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.chooseImage.html)
 ```
 wx.chooseImage({
-    count: 9  // 最多选几张
+    count: 9,  // 最多选几张
     sizeType: ["original", "compressed"],  //尺寸
     sourceType: ["album", "camera"], // 图片来源
     success: (res) {
