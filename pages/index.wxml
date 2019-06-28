@@ -40,3 +40,4 @@
   <navigator class="h2 a" url="/pages/api/share">8. 转发</navigator>
   <view class="h2">11. 开放接口</view>
     <navigator url="/pages/api/openapi/authorize" class="h3 a">11.9. 授权</navigator>
+  <navigator url="/pages/api/WXML" class="h2 a">14. WXML</navigator>

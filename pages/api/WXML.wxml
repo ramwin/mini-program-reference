@@ -1,0 +1,7 @@
+<!--pages/api/WXML.wxml-->
+<text>pages/api/WXML.wxml</text>
+<view class="h2">API WXML</view>
+<view class="h3">测试node的api</view>
+<input value="{{current}}" bindinput="dynamicinput"/>
+<button catch:tap="getheight">获取高度</button>
+<view class="h3 h3-{{item}}" wx:for="{{range}}">测试node的api{{item}}</view>

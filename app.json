@@ -36,7 +36,8 @@
     "pages/frame/custom-component/events",
     "pages/frame/custom-component/behaviors",
     "pages/api/storage",
-    "pages/api/share"
+    "pages/api/share",
+    "pages/api/WXML"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

@@ -278,5 +278,46 @@ wx.getSetting({
 })
 ```
 
+## WXML
+### wx.createSelectorQuery
+```
+const query = wx.createSelectorQuery()
+query.select('#the-id').boundingClientRect()
+query.selectViewport().scrollOffset()
+query.exec(function(res){
+  res[0].top       // #the-id节点的上边界坐标
+  res[1].scrollTop // 显示区域的竖直滚动位置
+})
+```
+### NodesRef
+* boundingClientRect
+返回一个节点的布局位置
+```
+// 单个节点
+wx.createSelectorQuery().select('#the-id').boundingClientRect(function(rect){
+      rect.id      // 节点的ID
+      rect.dataset // 节点的dataset
+      rect.left    // 节点的左边界坐标
+      rect.right   // 节点的右边界坐标
+      rect.top     // 节点的上边界坐标
+      rect.bottom  // 节点的下边界坐标
+      rect.width   // 节点的宽度
+      rect.height  // 节点的高度
+    }).exec()
+// 多个节点
+wx.createSelectorQuery().selectAll('.a-class').boundingClientRect(function(rects){
+      rects.forEach(function(rect){
+        rect.id      // 节点的ID
+        rect.dataset // 节点的dataset
+        rect.left    // 节点的左边界坐标
+        rect.right   // 节点的右边界坐标
+        rect.top     // 节点的上边界坐标
+        rect.bottom  // 节点的下边界坐标
+        rect.width   // 节点的宽度
+        rect.height  // 节点的高度
+      })
+    }).exec()
+```
+
 [界面]: https://developers.weixin.qq.com/miniprogram/dev/api/wx.showToast.html
 [showtoast]: https://developers.weixin.qq.com/miniprogram/dev/api/wx.showToast.html
