@@ -17,3 +17,8 @@
 
 <view>传入空字符串, 默认为true就会当成false，然后触发observer, 默认为false就不触发</view>
 <component-properties propertya="" id="emptystring"></component-properties>
+
+<view class="h5">测试传入字典</view>
+<button bind:tap="keyaddold">文字加old</button>
+外部数据{{dict.key}}，和内部数据不一样，因为传入的时候会修改
+<component-properties propertydict="{{dict}}"></component-properties>

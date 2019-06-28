@@ -11,15 +11,22 @@ Component({
         })
       }
     },
+    "propertydict": {
+      type: Object,
+      observer: function(newVal, oldVal) {
+        newVal["key"] += "new";
+        this.setData({
+          "innerpropertydict": newVal,
+        })
+      }
+    },
   },
 
   data: {
     "innerpropertya": undefined,
+    "innerpropertydict": undefined,
   },
 
-  methods: {
-
-  },
   options: {
     addGlobalClass: true,
   },
