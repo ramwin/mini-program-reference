@@ -83,7 +83,7 @@ wx.showModal({
 显示Loading提示框，必须主动调用`wx.hideLoading`才能关闭
 ```
 wx.showLoading({
-  title: "提示的内容",
+  title: "提示的内容",  // 最多只能显示7个字
   mask: false,  // 是否显示蒙层防止触摸
 })
 ```
@@ -244,7 +244,7 @@ wx.chooseLocation({
 ### 用户信息
 见 [button组件](./组件.md#button)
 
-### 支付
+### [支付](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/payment/wx.requestPayment.html)
 * wx.requestPayment
 ```
 wx.requestPayment({
