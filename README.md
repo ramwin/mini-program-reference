@@ -60,6 +60,7 @@ var animation = wx.createAnimation(Object object)
 * [预览图片](./api.md#图片)
 
 ## 转发
+一旦设置了显示转发按钮，用户就一定可以转发出去。不管在onShareAppMessage里面报了什么错，返回了什么数据都无法阻止用户转发了
 * wx.hideShareMenu: *隐藏转发按钮*
 * wx.showShareMenu: *显示转发按钮*
 

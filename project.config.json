@@ -140,6 +140,12 @@
 				},
 				{
 					"id": -1,
+					"name": "API - 转发",
+					"pathName": "pages/api/share",
+					"scene": null
+				},
+				{
+					"id": -1,
 					"name": "API - WXML",
 					"pathName": "pages/api/WXML",
 					"scene": null
