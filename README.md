@@ -15,10 +15,11 @@
 * ## [配置](./框架.md)
 * [ ] 场景值
 * ## [框架接口](./框架.md)
+getCurrentPages, Page, 生命周期
     * 页面
         * Page
         [生命周期](./框架.md)
-        * getCurrentPages
+        * [getCurrentPages](./框架.md#getCurrentPages)
         获取当前的页面栈
 * ## [WXML语法参考](./框架.md)
 * [ ] WXS语法参考

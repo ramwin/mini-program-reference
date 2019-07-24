@@ -231,7 +231,7 @@ wx.chooseLocation({
 ```
 
 ## 开放接口
-### 登录
+### [登录](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/login/wx.login.html)
 * wx.login
 ```
     wx.login({
