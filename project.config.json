@@ -10,7 +10,7 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.7.1",
+	"libVersion": "2.7.7",
 	"appid": "wx49c680453307ac18",
 	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AD%A6%E4%B9%A0%E5%8F%82%E8%80%83",
 	"isGameTourist": false,
@@ -44,6 +44,18 @@
 				},
 				{
 					"id": -1,
+					"name": "框架 - 自定义组件 - 组件构造器",
+					"pathName": "pages/frame/custom-component/component",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "框架 - 自定义组件 - 组件构造器 - property",
+					"pathName": "pages/frame/custom-component/property",
+					"query": ""
+				},
+				{
+					"id": -1,
 					"name": "框架 - 指南 - 自定义组件 - 组件事件",
 					"pathName": "pages/frame/custom-component/events",
 					"query": ""
@@ -64,12 +76,6 @@
 					"id": -1,
 					"name": "框架-视图层-WXSS",
 					"pathName": "pages/frame/view/WXSS",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "框架 - 自定义组件 - 组件构造器",
-					"pathName": "pages/frame/custom-component/component",
 					"query": ""
 				},
 				{

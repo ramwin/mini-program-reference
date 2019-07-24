@@ -37,7 +37,8 @@
     "pages/frame/custom-component/behaviors",
     "pages/api/storage",
     "pages/api/share",
-    "pages/api/WXML"
+    "pages/api/WXML",
+    "pages/frame/custom-component/property"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

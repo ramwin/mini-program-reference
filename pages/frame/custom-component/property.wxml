@@ -1,0 +1,8 @@
+<!--pages/frame/custom-component/property.wxml-->
+<component-properties
+    propertya="{{bool}}"
+    propertydict="{{dict}}"
+    bind:dictchange="changedict"
+    id="test-change"></component-properties>
+<button bind:tap="changebool">修改布尔</button>
+<button bind:tap="changedict">修改dict</button>

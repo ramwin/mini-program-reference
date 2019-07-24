@@ -1,6 +1,6 @@
 <!--pages/frame/custom-component/component.wxml-->
 <view class="h3">2.3.2 组件构造器</view>
-<view class="h4">properties</view>
+<navigator class="h4" url="./property">2.3.2.1 property</navigator>
 <view class="h5">测试如果传入布尔值</view>
 
 <view>简单用法: 传入数据true, booltrue: {{booltrue}}, 成功</view>
