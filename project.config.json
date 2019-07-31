@@ -38,6 +38,12 @@
 			"list": [
 				{
 					"id": -1,
+					"name": "指南 - 小程序框架 - 视图层 - WXSS",
+					"pathName": "pages/frame/view/WXSS",
+					"query": ""
+				},
+				{
+					"id": -1,
 					"name": "指南 - 小程序框架 - 视图层 - 事件系统",
 					"pathName": "pages/frame/view/WXML",
 					"query": ""

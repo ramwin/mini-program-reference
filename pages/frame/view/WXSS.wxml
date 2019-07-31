@@ -13,3 +13,12 @@
       <text class="item">第3段文字</text>
       <text class="item">第4段文字</text>
     </view>
+
+  <view class="h5">测试使用本地图片</view>
+  <view
+    class="bigview"
+    style="background-image: url('/img/weixin-app.jpg'); bacground-size: 100% 100%;"
+    >我有背景图</view>
+  <view
+    class="bigview bg-img"
+    >我有背景图</view>

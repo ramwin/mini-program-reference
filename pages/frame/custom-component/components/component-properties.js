@@ -9,6 +9,7 @@ Component({
         this.setData({
           "innerpropertya": newVal,
         })
+        console.info(this.properties);
       }
     },
     "propertydict": {
@@ -19,6 +20,7 @@ Component({
         this.setData({
           "innerpropertydict": newVal,
         })
+        console.info(this.properties);
         this.triggerEvent(
           "dictchange",
           {}
@@ -30,6 +32,10 @@ Component({
   data: {
     "innerpropertya": undefined,
     "innerpropertydict": undefined,
+  },
+
+  attached: function() {
+    console.info(this.properties);
   },
 
   options: {

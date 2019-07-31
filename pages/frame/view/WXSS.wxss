@@ -8,3 +8,11 @@
 .text-last-child .item:nth-last-child(1) {
   color: green
 }
+
+.bigview {
+  width: 200%;
+  height: 200rpx;
+}
+.bg-img {
+  background-image: url('/img/weixin-app.jpg')
+}
