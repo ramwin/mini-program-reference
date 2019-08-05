@@ -25,9 +25,13 @@ Page({
     }
   },
   tapMove: function(e) {
+    console.group("tapMove")
+    console.info(`scrollTop before: ${this.data.scrollTop}`)
     this.setData({
       scrollTop: this.data.scrollTop + 10
     })
+    console.info(`scrollTop after: ${this.data.scrollTop}`)
+    console.groupEnd()
   }
 })
 

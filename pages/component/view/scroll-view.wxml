@@ -1,6 +1,10 @@
 <view class="section">
-  <view class="section__title">vertical scroll</view>
-  <scroll-view scroll-y style="height: 200px;" scroll-top="{{scrollTop}}">
+  <view class="section__title">vertical scroll{{scrollTop}}</view>
+  <scroll-view
+      scroll-into-view="{{toView}}"
+      scroll-y
+      style="height: 200px;"
+      scroll-top="{{scrollTop}}">
     <view id="green" class="scroll-view-item bc_green"></view>
     <view id="red"  class="scroll-view-item bc_red"></view>
     <view id="yellow" class="scroll-view-item bc_yellow"></view>
