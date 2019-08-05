@@ -24,6 +24,7 @@
     <navigator class="a" url="/pages/component/form/checkbox">2.1.2 checkbox</navigator>
     <navigator class="a" url="/pages/component/form/input">2.1.6 input</navigator>
     <navigator class="a" url="/pages/component/form/picker">2.1.8 picker</navigator>
+  <navigator class="h2" url="/pages/component/map">2.4. 地图</navigator>
 
 <view class="h1">4. API</view>
   <view class="h2">3 界面</view>

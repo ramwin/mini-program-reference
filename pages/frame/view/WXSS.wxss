@@ -14,5 +14,5 @@
   height: 200rpx;
 }
 .bg-img {
-  background-image: url('/img/weixin-app.jpg')
+  /* background-image: url('/img/weixin-app.jpg') */
 }

@@ -1,0 +1,5 @@
+<!--pages/component/map.wxml-->
+<view class="h2">地图</view>
+<view class="h3">测试markers</view>
+<button bindtap="addmarker">添加marker</button>
+<map longitude="121.544568" latitude="31.274717" markers="{{markers}}" style="width: 100%; height: 800rpx"></map>

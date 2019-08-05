@@ -34,7 +34,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 29,
+			"current": 33,
 			"list": [
 				{
 					"id": -1,
@@ -154,12 +154,14 @@
 					"id": -1,
 					"name": "API - 转发",
 					"pathName": "pages/api/share",
+					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
 					"name": "API - WXML",
 					"pathName": "pages/api/WXML",
+					"query": "",
 					"scene": null
 				},
 				{
@@ -237,6 +239,13 @@
 					"name": "    测试音频",
 					"pathName": "pages/api/media/audio",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "组件 - 地图",
+					"pathName": "pages/component/map",
+					"query": "",
+					"scene": null
 				}
 			]
 		}
