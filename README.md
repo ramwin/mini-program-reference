@@ -2,7 +2,7 @@
 
 [官网](https://developers.weixin.qq.com/miniprogram/dev/framework/)
 
-# 指南
+# [指南](./指南.md)
 * [ ] 目录结构
 * ## 小程序框架
     * ### [逻辑层](逻辑层.md)
@@ -10,6 +10,8 @@
     * 视图层
         * WXSS
 * ## [自定义组件](./自定义组件.md)
+* ## 开放能力
+#### [获取小程序码](./指南.md#获取小程序码)
 
 # 框架
 * ## [配置](./框架.md)
@@ -84,3 +86,4 @@ var animation = wx.createAnimation(Object object)
 * wx:for和data-item="{{item}}"好像无法嵌套到内部
 * behaviors实现了类似mixin的效果，这个我喜欢
 * 组件的 addGlobalClass 和 extendClassed 好用
+* **垃圾小程序，如果小程序码的颜色超过一定范围，颜色修改会无效。比如{"r":"150","g":"200","b":"150"}**
