@@ -68,6 +68,7 @@ var animation = wx.createAnimation(Object object)
 * wx.showShareMenu: *显示转发按钮*
 
 ## 开放接口
+* [支付](./api.md#支付)
 
 # 工具...
 
