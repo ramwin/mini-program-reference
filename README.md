@@ -68,6 +68,8 @@ var animation = wx.createAnimation(Object object)
 * wx.showShareMenu: *显示转发按钮*
 
 ## 文件
+* wx.saveFile
+这个保存的文件只是保存到小程序缓存，没法在文件管理里面使用的
 * [ ] wx.removeSavedFile
 * wx.openDocument
 * [ ] wx.getSavedFileList

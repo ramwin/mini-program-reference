@@ -35,8 +35,14 @@ Page({
         console.info("下载完成");
         if (res.errMsg == 'downloadFile:ok') {
           console.info(res.tempFilePath)
-          wx.openDocument({
-            filePath: res.tempFilePath,
+          // wx.openDocument({
+          //   filePath: res.tempFilePath,
+          // })
+          wx.saveFile({
+            tempFilePath: res.tempFilePath,
+            success: function(res) {
+              console.info(res);
+            }
           })
         } else {
           throw Error(res.errMsg)
