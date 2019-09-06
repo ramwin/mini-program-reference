@@ -39,7 +39,8 @@
     "pages/api/share",
     "pages/api/WXML",
     "pages/frame/custom-component/property",
-    "pages/component/map"
+    "pages/component/map",
+    "pages/api/file"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

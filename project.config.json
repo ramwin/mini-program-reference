@@ -159,6 +159,13 @@
 				},
 				{
 					"id": -1,
+					"name": "API - 文件",
+					"pathName": "pages/api/file",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
 					"name": "API - WXML",
 					"pathName": "pages/api/WXML",
 					"query": "",
