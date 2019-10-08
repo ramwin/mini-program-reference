@@ -1,0 +1,8 @@
+<!--pages/component/media/video.wxml-->
+<view class="h3">测试video</view>
+<view class="video-container position-relative">
+  <video id="myVideo" src="https://www.runoob.com/try/demo_source/movie.mp4"></video>
+  <view class="position-absolute" style="top: 10rpx;" bind:tap="test">
+    点我<button>按钮测试video上能否悬浮东西</button>
+  </view>
+</view>

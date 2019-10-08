@@ -40,7 +40,8 @@
     "pages/api/WXML",
     "pages/frame/custom-component/property",
     "pages/component/map",
-    "pages/api/file"
+    "pages/api/file",
+    "pages/component/media/video"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

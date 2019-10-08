@@ -1,4 +1,5 @@
 /**app.wxss**/
+@import "./bootstrap/position.wxss";
 .container {
   height: 100%;
   display: flex;
