@@ -41,7 +41,8 @@
     "pages/frame/custom-component/property",
     "pages/component/map",
     "pages/api/file",
-    "pages/component/media/video"
+    "pages/component/media/video",
+    "pages/api/network/request"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",

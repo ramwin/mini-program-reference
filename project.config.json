@@ -34,7 +34,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 33,
+			"current": 35,
 			"list": [
 				{
 					"id": -1,
@@ -251,6 +251,13 @@
 					"id": -1,
 					"name": "组件 - 地图",
 					"pathName": "pages/component/map",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "API--网络--发起请求",
+					"pathName": "pages/api/network/request",
 					"query": "",
 					"scene": null
 				}

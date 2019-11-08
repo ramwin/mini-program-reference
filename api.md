@@ -5,6 +5,9 @@
 ## 路由
 [官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.navigateBack.html)
 
+### wx.reLaunch
+关闭所有页面，打开应用内的某个页面
+
 ### wx.redirectTo
 关闭当前页面，跳转到应用内的某个页面,不允许跳转到tabbar页面
 ```

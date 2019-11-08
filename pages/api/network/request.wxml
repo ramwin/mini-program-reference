@@ -1,0 +1,2 @@
+<!--pages/api/network/request.wxml-->
+<button catch:tap="sendrequest">发起请求</button>

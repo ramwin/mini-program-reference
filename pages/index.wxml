@@ -33,8 +33,9 @@
     <navigator url="/pages/api/interface/interaction" class="h3 a">1. 交互</navigator>
     <navigator url="/pages/api/interface/animation" class="h3 a">8. 动画</navigator>
   <view class="h2">4. 网络</view>
-    <navigator url="/pages/api/network/download" class="h3 a">3.1.2. 下载</navigator>
-    <navigator url="/pages/api/network/websocket" class="h3 a">3.1.4. WebSocket</navigator>
+    <navigator url="/pages/api/network/request" class="h3 a">4.1.1. 发起请求</navigator>
+    <navigator url="/pages/api/network/download" class="h3 a">4.1.2. 下载</navigator>
+    <navigator url="/pages/api/network/websocket" class="h3 a">4.1.4. WebSocket</navigator>
   <view class="h2">5. 数据缓存</view>
     <navigator url="/pages/api/storage" class="h3 a">5.3 数据缓存</navigator>
   <view class="h2">6. 媒体</view>
