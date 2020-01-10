@@ -87,7 +87,7 @@ wx.showModal({
 ```
 wx.showLoading({
   title: "提示的内容",  // 最多只能显示7个字
-  mask: false,  // 是否显示蒙层防止触摸
+  mask: false,  // 是否显示蒙层防止触摸. 默认false
 })
 ```
 
@@ -157,7 +157,7 @@ wx.downloadFile({
       url: "https://www.ramwin.com/media/avatar.png",
       success(res) {
         console.info("下载完成");
-        if (res.errMsg == 'downloaadFile:ok') {
+        if (res.errMsg == 'downloadFile:ok') {
           console.info(res.tempFilePath)
         }
       }
@@ -171,12 +171,32 @@ wx.connectSocket()
 ```
 
 ## 媒体
-### 图片
+### [图片](https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.saveImageToPhotosAlbum.html)
 * 保存图片到相册 需要先授权
 ```
 wx.saveImageToPhotosAlbum({
-    filePath: 图片路径, 必须是临时文件路径或者永久路径, 不支持网络路径
-    success(res) {}
+    filePath: filepath,
+    success: function (res) {
+        switch (res.errMsg) {
+          case "saveImageToPhotosAlbum:ok": {
+            break;
+          }
+          default: {
+            throw Error(res.errMsg);
+          }
+        }
+    },
+    fail: function (res) {
+        switch (res.errMsg) {
+          case "saveImageToPhotosAlbum:fail cancel": {
+            throw Error("保存图片成功")
+            break;
+          }
+          default: {
+            break;
+          }
+        }
+    }
 })
 ```
 
@@ -266,8 +286,30 @@ wx.requestPayment({
 })
 ```
 
-### 授权
+### [授权](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/authorize/wx.authorize.html)
 这个授权真的是用fail, success来判断。但是授权拒绝一次或者同意一次，就不再弹窗提问了。
+* 授权保存到相册
+```
+wx.authorize({
+    scope: "scope.writePhotosAlbum",
+    success: function(res) {
+        console.info("授权成功")
+    },
+    fail: function(res) {
+        switch (res.errMsg) {
+          case "authorize:fail auth deny": {
+            break;
+          }
+          default: {
+            throw Error(res.errMsg)
+          }
+        }
+    },
+})
+```
+
+### 设置
+* wx.getSetting
 ```
 wx.getSetting({
   success(res) {
