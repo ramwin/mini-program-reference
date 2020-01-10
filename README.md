@@ -77,6 +77,9 @@ var animation = wx.createAnimation(Object object)
 ## 开放接口
 * [支付](./api.md#支付)
 
+# 服务端
+## [小程序码](https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/qr-code/wxacode.createQRCode.html)
+
 # 工具...
 
 # Q&A...
