@@ -2,6 +2,15 @@
 
 [官方api文档](https://developers.weixin.qq.com/miniprogram/dev/api/)
 ## 基础
+### 系统
+* 获取系统信息
+```
+wx.getSystemInfoSync()
+{
+    SDKVersion: "2.7.1"
+}
+```
+
 ## 路由
 [官网](https://developers.weixin.qq.com/miniprogram/dev/api/wx.navigateBack.html)
 
@@ -326,6 +335,32 @@ wx.getSetting({
 })
 ```
 
+### 订阅消息
+* [`wx.requestSubscribeMessage`][requestSubscribeMessage]
+> 低版本基础库2.4.4~2.8.3 已支持订阅消息接口调用，仅支持传入一个一次性 tmplId / 永久 tmplId。  
+> 用户发起点击行为或者发起支付回调后，才可以调起订阅消息  
+> 一次性模板 id 和永久模板 id 不可同时使用。  
+如果用户没有选择那个订阅，仍然是success. 但是对应的temlId的值为reject
+```javascript
+wx.requestSubscribeMessage({
+    tmplIds: [],
+    success: function(obj) {
+        if (obj.errMsg != "requestSubscribeMessage:ok") {
+            throw Error("搞笑呢")
+        }
+        {
+            errMsg: "requestSubscribeMessage:ok",
+            UHKWsewjxxxx1e8s: "accept",  | accept, reject, ban, accept
+        }
+    },
+    fail: function(obj) {
+        throw Error("竟然申请失败了");
+    },
+    complete: function(obj) {
+    },
+})
+```
+
 ## WXML
 ### wx.createSelectorQuery
 ```
@@ -369,3 +404,4 @@ wx.createSelectorQuery().selectAll('.a-class').boundingClientRect(function(rects
 
 [界面]: https://developers.weixin.qq.com/miniprogram/dev/api/wx.showToast.html
 [showtoast]: https://developers.weixin.qq.com/miniprogram/dev/api/wx.showToast.html
+[requestSubscribeMessage]: https://developers.weixin.qq.com/miniprogram/dev/api/open-api/subscribe-message/wx.requestSubscribeMessage.html
