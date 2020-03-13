@@ -15,7 +15,7 @@ function initChart(canvas, width, height, dpr) {
   var option = {
     color: ["#37A2DA", "#32C5E9", "#67E0E3", "#91F2DE", "#FFDB5C", "#FF9F7F"],
     title: {
-      text: "Graph 简单示例",
+      text: "测试关系图",
     },
     tooltip: {},
     animationDurationUpdate: 1500,
@@ -25,6 +25,10 @@ function initChart(canvas, width, height, dpr) {
         type: "graph",
         layout: "force",
         roam: true,
+        force: {
+          edgeLength: 100,
+          repulsion: 200,
+        },
         symbolSize: 5,
         label: {
           normal: {
@@ -77,7 +81,6 @@ function initChart(canvas, width, height, dpr) {
           {
             source: "节点1",
             target: "节点2",
-            symbolSize: [5, 20],
             label: {
               show: false,
             },
