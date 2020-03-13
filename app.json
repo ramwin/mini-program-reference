@@ -2,6 +2,7 @@
   "pages": [
     "pages/index",
     "pages/bar/index",
+    "pages/ec-canvas/index",
     "pages/time/index",
     "pages/index/index",
     "pages/text/text",

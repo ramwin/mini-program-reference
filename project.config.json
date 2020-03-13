@@ -7,10 +7,18 @@
 		"minified": true,
 		"newFeature": true,
 		"nodeModules": false,
-		"autoAudits": false
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.7.7",
+	"libVersion": "2.10.3",
 	"appid": "wx49c680453307ac18",
 	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AD%A6%E4%B9%A0%E5%8F%82%E8%80%83",
 	"isGameTourist": false,
@@ -31,6 +39,10 @@
 		},
 		"game": {
 			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
 			"list": []
 		},
 		"miniprogram": {
@@ -259,6 +271,12 @@
 					"name": "API--网络--发起请求",
 					"pathName": "pages/api/network/request",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "其他包 - echarts - index",
+					"pathName": "pages/ec-canvas/index",
 					"scene": null
 				}
 			]
