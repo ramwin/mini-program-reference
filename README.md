@@ -62,6 +62,13 @@ var animation = wx.createAnimation(Object object)
 ### 图片
 * [预览图片](./api.md#图片)
 ### 音频
+* wx.setInnerAudioOption
+```
+wx.setInnerAudioOption({
+    mixWithOther: false,  // 是否和其他音频(如音乐)混合播放
+  obeyMuteSwitch: false,  // 设置是否遵循静音开关
+})
+```
 * InnerAudioContext
 ```
 const innerAudioContext = wx.createInnerAudioContext()
