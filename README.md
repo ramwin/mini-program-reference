@@ -75,6 +75,7 @@ var animation = wx.createAnimation(Object object)
 * [ ] wx.getSavedFileList
 
 ## 开放接口
+* [登录](./api.md#登录)
 * [支付](./api.md#支付)
 
 # 服务端
