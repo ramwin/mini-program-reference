@@ -45,3 +45,7 @@
   <view class="h2">11. 开放接口</view>
     <navigator url="/pages/api/openapi/authorize" class="h3 a">11.9. 授权</navigator>
   <navigator url="/pages/api/WXML" class="h2 a">14. WXML</navigator>
+
+
+<view class="h1">5. 其他包</view>
+  <navigator class="h2" url="/pages/ec-canvas/index"> 1 Echarts</navigator>
