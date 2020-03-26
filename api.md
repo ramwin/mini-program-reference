@@ -227,9 +227,12 @@ wx.chooseImage({
     count: 9,  // 最多选几张
     sizeType: ["original", "compressed"],  //尺寸
     sourceType: ["album", "camera"], // 图片来源
-    success: (res) {
+    success: function(res) {
         const tempFilePaths = res.tempFilePaths
-    }
+    },
+    fail: function(res) {
+        console.info("取消选择")
+    },
 })
 ```
 
