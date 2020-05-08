@@ -277,6 +277,13 @@
 					"id": -1,
 					"name": "其他包 - echarts - index",
 					"pathName": "pages/ec-canvas/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detail页面",
+					"pathName": "pages/framework/detail/detail",
 					"scene": null
 				}
 			]

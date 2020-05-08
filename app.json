@@ -43,7 +43,8 @@
     "pages/component/map",
     "pages/api/file",
     "pages/component/media/video",
-    "pages/api/network/request"
+    "pages/api/network/request",
+    "pages/framework/detail/detail"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff0000",
